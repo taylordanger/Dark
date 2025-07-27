@@ -1,0 +1,27 @@
+CHECKSUM:3214f99bc6e968fb
+COMPRESSED:0
+DATA:
+{
+    "player": {
+        "inventory": [],
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "stats": {
+            "experience": 500,
+            "experienceToNext": 100,
+            "hp": 100,
+            "level": 6,
+            "maxHp": 100,
+            "maxMp": 50,
+            "mp": 50
+        }
+    },
+    "timestamp": "2025-07-26T18:25:54Z",
+    "version": "1.0",
+    "world": {
+        "completedQuests": [],
+        "currentMap": "area_6"
+    }
+}

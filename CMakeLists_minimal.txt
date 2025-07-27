@@ -1,0 +1,50 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(RPGEngineQuestTest VERSION 1.0.0 LANGUAGES CXX)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Set build type if not specified
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release)
+endif()
+
+# Compiler-specific options
+if(MSVC)
+    add_compile_options(/W4)
+else()
+    add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# Include directories
+include_directories(src)
+
+# Minimal source files for quest system only
+set(ENGINE_SOURCES
+    src/core/Event.cpp
+    src/systems/SystemManager.cpp
+    src/systems/System.cpp
+    src/systems/QuestSystem.cpp
+    src/systems/QuestDialogueIntegration.cpp
+    src/systems/QuestWorldIntegration.cpp
+    src/entities/EntityManager.cpp
+    src/components/ComponentManager.cpp
+    src/components/QuestComponent.cpp
+    src/components/DialogueComponent.cpp
+    src/components/StatsComponent.cpp
+    src/components/InventoryComponent.cpp
+)
+
+# Create minimal engine library
+add_library(RPGEngineMinimal STATIC ${ENGINE_SOURCES})
+
+# Create simple test executable
+add_executable(QuestIntegrationSimpleTest
+    examples/quest_integration_simple_test.cpp
+)
+
+target_link_libraries(QuestIntegrationSimpleTest RPGEngineMinimal)
+
+message(STATUS "Minimal RPG Engine Quest Test configuration complete")

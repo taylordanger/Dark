@@ -1,0 +1,55 @@
+CHECKSUM:3c8fcba6948332dc
+COMPRESSED:0
+DATA:
+{
+    "player": {
+        "equipment": {
+            "armor": "leather_armor",
+            "weapon": "sword_iron"
+        },
+        "inventory": [
+            {
+                "id": "sword_iron",
+                "quantity": 1
+            },
+            {
+                "id": "potion_health",
+                "quantity": 5
+            },
+            {
+                "id": "key_bronze",
+                "quantity": 2
+            }
+        ],
+        "position": {
+            "x": 150.5,
+            "y": 200.3000030517578
+        },
+        "stats": {
+            "experience": 2500,
+            "experienceToNext": 100,
+            "hp": 85,
+            "level": 15,
+            "maxHp": 100,
+            "maxMp": 60,
+            "mp": 45
+        }
+    },
+    "timestamp": "2025-07-26T18:25:52Z",
+    "version": "1.0",
+    "world": {
+        "completedQuests": [
+            "tutorial",
+            "first_monster"
+        ],
+        "currentMap": "forest_clearing",
+        "discoveredLocations": {
+            "forest_clearing": true,
+            "town_center": true
+        },
+        "gameFlags": {
+            "found_secret_cave": false,
+            "met_wizard": true
+        }
+    }
+}

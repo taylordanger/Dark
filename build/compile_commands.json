@@ -1,0 +1,974 @@
+[
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/core/Event.cpp.o -c /Users/darkstar/darkengine/src/core/Event.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/Event.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/core/Event.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.o -c /Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/core/EngineConfig.cpp.o -c /Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/core/EngineConfig.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/ConfigurationManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/core/MemoryPool.cpp.o -c /Users/darkstar/darkengine/src/core/MemoryPool.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/MemoryPool.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/core/MemoryPool.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/core/ThreadPool.cpp.o -c /Users/darkstar/darkengine/src/core/ThreadPool.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/ThreadPool.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/core/ThreadPool.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/debug/DebugRenderer.cpp.o -c /Users/darkstar/darkengine/src/debug/DebugRenderer.cpp",
+  "file": "/Users/darkstar/darkengine/src/debug/DebugRenderer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/debug/DebugRenderer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/debug/EntityInspector.cpp.o -c /Users/darkstar/darkengine/src/debug/EntityInspector.cpp",
+  "file": "/Users/darkstar/darkengine/src/debug/EntityInspector.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/debug/EntityInspector.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp",
+  "file": "/Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/debug/PerformanceProfiler.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/SystemManager.cpp.o -c /Users/darkstar/darkengine/src/systems/SystemManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/SystemManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/SystemManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.o -c /Users/darkstar/darkengine/src/systems/System.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/System.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestSystem.cpp.o -c /Users/darkstar/darkengine/src/systems/QuestSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/QuestSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestDialogueIntegration.cpp.o -c /Users/darkstar/darkengine/src/systems/QuestDialogueIntegration.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/QuestDialogueIntegration.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestDialogueIntegration.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestWorldIntegration.cpp.o -c /Users/darkstar/darkengine/src/systems/QuestWorldIntegration.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/QuestWorldIntegration.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestWorldIntegration.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/CombatSystem.cpp.o -c /Users/darkstar/darkengine/src/systems/CombatSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/CombatSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/CombatSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/systems/ScriptSystem.cpp.o -c /Users/darkstar/darkengine/src/systems/ScriptSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/ScriptSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/systems/ScriptSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.o -c /Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityFactory.cpp.o -c /Users/darkstar/darkengine/src/entities/EntityFactory.cpp",
+  "file": "/Users/darkstar/darkengine/src/entities/EntityFactory.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityFactory.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.o -c /Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/QuestComponent.cpp.o -c /Users/darkstar/darkengine/src/components/QuestComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/QuestComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/QuestComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/DialogueComponent.cpp.o -c /Users/darkstar/darkengine/src/components/DialogueComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/DialogueComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/DialogueComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/StatsComponent.cpp.o -c /Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/StatsComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/InventoryComponent.cpp.o -c /Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/InventoryComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/CombatComponent.cpp.o -c /Users/darkstar/darkengine/src/components/CombatComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/CombatComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/CombatComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/AnimationComponent.cpp.o -c /Users/darkstar/darkengine/src/components/AnimationComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/AnimationComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/AnimationComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/components/ScriptComponent.cpp.o -c /Users/darkstar/darkengine/src/components/ScriptComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/ScriptComponent.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/components/ScriptComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/ShaderManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/SpriteRenderer.cpp.o -c /Users/darkstar/darkengine/src/graphics/SpriteRenderer.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/SpriteRenderer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/SpriteRenderer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/Sprite.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/Texture.cpp.o -c /Users/darkstar/darkengine/src/graphics/Texture.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Texture.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/Texture.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/CameraSystem.cpp.o -c /Users/darkstar/darkengine/src/graphics/CameraSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/CameraSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/CameraSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/AnimationSystem.cpp.o -c /Users/darkstar/darkengine/src/graphics/AnimationSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/AnimationSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/AnimationSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/FrustumCuller.cpp.o -c /Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/FrustumCuller.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/physics/CollisionDetection.cpp.o -c /Users/darkstar/darkengine/src/physics/CollisionDetection.cpp",
+  "file": "/Users/darkstar/darkengine/src/physics/CollisionDetection.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/physics/CollisionDetection.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/physics/CollisionSystem.cpp.o -c /Users/darkstar/darkengine/src/physics/CollisionSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/physics/CollisionSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/physics/CollisionSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/physics/MovementSystem.cpp.o -c /Users/darkstar/darkengine/src/physics/MovementSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/physics/MovementSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/physics/MovementSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/physics/TriggerSystem.cpp.o -c /Users/darkstar/darkengine/src/physics/TriggerSystem.cpp",
+  "file": "/Users/darkstar/darkengine/src/physics/TriggerSystem.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/physics/TriggerSystem.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/physics/SpatialPartitioning.cpp.o -c /Users/darkstar/darkengine/src/physics/SpatialPartitioning.cpp",
+  "file": "/Users/darkstar/darkengine/src/physics/SpatialPartitioning.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/physics/SpatialPartitioning.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/resources/ResourceManager.cpp.o -c /Users/darkstar/darkengine/src/resources/ResourceManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/resources/ResourceManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/resources/ResourceManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/resources/TextureResource.cpp.o -c /Users/darkstar/darkengine/src/resources/TextureResource.cpp",
+  "file": "/Users/darkstar/darkengine/src/resources/TextureResource.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/resources/TextureResource.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/resources/AudioResource.cpp.o -c /Users/darkstar/darkengine/src/resources/AudioResource.cpp",
+  "file": "/Users/darkstar/darkengine/src/resources/AudioResource.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/resources/AudioResource.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/audio/AudioManager.cpp.o -c /Users/darkstar/darkengine/src/audio/AudioManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/audio/AudioManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/audio/AudioManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/audio/MusicManager.cpp.o -c /Users/darkstar/darkengine/src/audio/MusicManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/audio/MusicManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/audio/MusicManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/audio/SoundEffectManager.cpp.o -c /Users/darkstar/darkengine/src/audio/SoundEffectManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/audio/SoundEffectManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/audio/SoundEffectManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/audio/MockAudioDevice.cpp.o -c /Users/darkstar/darkengine/src/audio/MockAudioDevice.cpp",
+  "file": "/Users/darkstar/darkengine/src/audio/MockAudioDevice.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/audio/MockAudioDevice.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/tilemap/Tilemap.cpp.o -c /Users/darkstar/darkengine/src/tilemap/Tilemap.cpp",
+  "file": "/Users/darkstar/darkengine/src/tilemap/Tilemap.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/tilemap/Tilemap.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/tilemap/TileLayer.cpp.o -c /Users/darkstar/darkengine/src/tilemap/TileLayer.cpp",
+  "file": "/Users/darkstar/darkengine/src/tilemap/TileLayer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/tilemap/TileLayer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/tilemap/Tileset.cpp.o -c /Users/darkstar/darkengine/src/tilemap/Tileset.cpp",
+  "file": "/Users/darkstar/darkengine/src/tilemap/Tileset.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/tilemap/Tileset.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/tilemap/TilemapRenderer.cpp.o -c /Users/darkstar/darkengine/src/tilemap/TilemapRenderer.cpp",
+  "file": "/Users/darkstar/darkengine/src/tilemap/TilemapRenderer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/tilemap/TilemapRenderer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/tilemap/MapLoader.cpp.o -c /Users/darkstar/darkengine/src/tilemap/MapLoader.cpp",
+  "file": "/Users/darkstar/darkengine/src/tilemap/MapLoader.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/tilemap/MapLoader.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/world/Map.cpp.o -c /Users/darkstar/darkengine/src/world/Map.cpp",
+  "file": "/Users/darkstar/darkengine/src/world/Map.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/world/Map.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/world/MapObject.cpp.o -c /Users/darkstar/darkengine/src/world/MapObject.cpp",
+  "file": "/Users/darkstar/darkengine/src/world/MapObject.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/world/MapObject.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/world/WorldManager.cpp.o -c /Users/darkstar/darkengine/src/world/WorldManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/world/WorldManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/world/WorldManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/scene/Scene.cpp.o -c /Users/darkstar/darkengine/src/scene/Scene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/Scene.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/scene/Scene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/scene/SceneManager.cpp.o -c /Users/darkstar/darkengine/src/scene/SceneManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/SceneManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/scene/SceneManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/scene/GameScene.cpp.o -c /Users/darkstar/darkengine/src/scene/GameScene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/GameScene.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/scene/GameScene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/scene/MenuScene.cpp.o -c /Users/darkstar/darkengine/src/scene/MenuScene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/MenuScene.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/scene/MenuScene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/scene/BattleScene.cpp.o -c /Users/darkstar/darkengine/src/scene/BattleScene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/BattleScene.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/scene/BattleScene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/save/SaveManager.cpp.o -c /Users/darkstar/darkengine/src/save/SaveManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/SaveManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/save/SaveManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/save/JsonSaveSerializer.cpp.o -c /Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/save/JsonSaveSerializer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/save/SaveIntegration.cpp.o -c /Users/darkstar/darkengine/src/save/SaveIntegration.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/SaveIntegration.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/save/SaveIntegration.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/save/SaveLoadManager.cpp.o -c /Users/darkstar/darkengine/src/save/SaveLoadManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/SaveLoadManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/save/SaveLoadManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/save/SystemStateSerializer.cpp.o -c /Users/darkstar/darkengine/src/save/SystemStateSerializer.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/SystemStateSerializer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/save/SystemStateSerializer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/UIRenderer.cpp.o -c /Users/darkstar/darkengine/src/ui/UIRenderer.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/UIRenderer.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/UIRenderer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/MainMenuUI.cpp.o -c /Users/darkstar/darkengine/src/ui/MainMenuUI.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/MainMenuUI.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/MainMenuUI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/GameHUD.cpp.o -c /Users/darkstar/darkengine/src/ui/GameHUD.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/GameHUD.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/GameHUD.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/DialogueUI.cpp.o -c /Users/darkstar/darkengine/src/ui/DialogueUI.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/DialogueUI.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/DialogueUI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/CombatUI.cpp.o -c /Users/darkstar/darkengine/src/ui/CombatUI.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/CombatUI.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/CombatUI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/QuestUI.cpp.o -c /Users/darkstar/darkengine/src/ui/QuestUI.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/QuestUI.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/QuestUI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/ui/SaveLoadUI.cpp.o -c /Users/darkstar/darkengine/src/ui/SaveLoadUI.cpp",
+  "file": "/Users/darkstar/darkengine/src/ui/SaveLoadUI.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/ui/SaveLoadUI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/scripting/LuaScriptEngine.cpp.o -c /Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp",
+  "file": "/Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/scripting/LuaScriptEngine.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/OpenGLAPI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/graphics/GraphicsFactory.cpp.o -c /Users/darkstar/darkengine/src/graphics/GraphicsFactory.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/GraphicsFactory.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/graphics/GraphicsFactory.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/input/InputManager.cpp.o -c /Users/darkstar/darkengine/src/input/InputManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/input/InputManager.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/input/InputManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/input/KeyboardDevice.cpp.o -c /Users/darkstar/darkengine/src/input/KeyboardDevice.cpp",
+  "file": "/Users/darkstar/darkengine/src/input/KeyboardDevice.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/input/KeyboardDevice.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/input/MouseDevice.cpp.o -c /Users/darkstar/darkengine/src/input/MouseDevice.cpp",
+  "file": "/Users/darkstar/darkengine/src/input/MouseDevice.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/input/MouseDevice.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGEngineMinimal.dir/src/input/GamepadDevice.cpp.o -c /Users/darkstar/darkengine/src/input/GamepadDevice.cpp",
+  "file": "/Users/darkstar/darkengine/src/input/GamepadDevice.cpp",
+  "output": "CMakeFiles/RPGEngineMinimal.dir/src/input/GamepadDevice.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/quest_integration_simple_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/quest_integration_simple_test.cpp",
+  "output": "CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/CombatTest.dir/examples/combat_test.cpp.o -c /Users/darkstar/darkengine/examples/combat_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/combat_test.cpp",
+  "output": "CMakeFiles/CombatTest.dir/examples/combat_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/CombatIntegrationTest.dir/examples/combat_integration_test.cpp.o -c /Users/darkstar/darkengine/examples/combat_integration_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/combat_integration_test.cpp",
+  "output": "CMakeFiles/CombatIntegrationTest.dir/examples/combat_integration_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/SaveSystemTest.dir/examples/save_system_test.cpp.o -c /Users/darkstar/darkengine/examples/save_system_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/save_system_test.cpp",
+  "output": "CMakeFiles/SaveSystemTest.dir/examples/save_system_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/SaveSystemDemo.dir/examples/save_system_demo.cpp.o -c /Users/darkstar/darkengine/examples/save_system_demo.cpp",
+  "file": "/Users/darkstar/darkengine/examples/save_system_demo.cpp",
+  "output": "CMakeFiles/SaveSystemDemo.dir/examples/save_system_demo.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/SaveLoadIntegrationTest.dir/examples/save_load_integration_test.cpp.o -c /Users/darkstar/darkengine/examples/save_load_integration_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/save_load_integration_test.cpp",
+  "output": "CMakeFiles/SaveLoadIntegrationTest.dir/examples/save_load_integration_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/UIFrameworkSimpleTest.dir/examples/ui_framework_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/ui_framework_simple_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/ui_framework_simple_test.cpp",
+  "output": "CMakeFiles/UIFrameworkSimpleTest.dir/examples/ui_framework_simple_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/UIGameSpecificTest.dir/examples/ui_game_specific_test.cpp.o -c /Users/darkstar/darkengine/examples/ui_game_specific_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/ui_game_specific_test.cpp",
+  "output": "CMakeFiles/UIGameSpecificTest.dir/examples/ui_game_specific_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ScriptingTest.dir/examples/scripting_test.cpp.o -c /Users/darkstar/darkengine/examples/scripting_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/scripting_test.cpp",
+  "output": "CMakeFiles/ScriptingTest.dir/examples/scripting_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o -c /Users/darkstar/darkengine/examples/scripting_minimal_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/scripting_minimal_test.cpp",
+  "output": "CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o -c /Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp",
+  "file": "/Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp",
+  "output": "CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/config_simple_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/config_simple_test.cpp",
+  "output": "CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/ConfigurationManager.cpp",
+  "output": "CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o -c /Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp",
+  "output": "CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp",
+  "file": "/Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp",
+  "output": "CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o -c /Users/darkstar/darkengine/examples/content_creation_tools_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/content_creation_tools_test.cpp",
+  "output": "CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o -c /Users/darkstar/darkengine/src/tools/MapEditor.cpp",
+  "file": "/Users/darkstar/darkengine/src/tools/MapEditor.cpp",
+  "output": "CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o -c /Users/darkstar/darkengine/src/tools/AnimationEditor.cpp",
+  "file": "/Users/darkstar/darkengine/src/tools/AnimationEditor.cpp",
+  "output": "CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o -c /Users/darkstar/darkengine/src/tools/DialogueEditor.cpp",
+  "file": "/Users/darkstar/darkengine/src/tools/DialogueEditor.cpp",
+  "output": "CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/DebugSystemsTest.dir/examples/debug_systems_test.cpp.o -c /Users/darkstar/darkengine/examples/debug_systems_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/debug_systems_test.cpp",
+  "output": "CMakeFiles/DebugSystemsTest.dir/examples/debug_systems_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o -c /Users/darkstar/darkengine/examples/performance_optimization_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/performance_optimization_test.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/performance_optimization_simple_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/performance_optimization_simple_test.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o -c /Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o -c /Users/darkstar/darkengine/src/core/ThreadPool.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/ThreadPool.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o -c /Users/darkstar/darkengine/src/core/MemoryPool.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/MemoryPool.cpp",
+  "output": "CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/CrossPlatformTest.dir/examples/cross_platform_test.cpp.o -c /Users/darkstar/darkengine/examples/cross_platform_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/cross_platform_test.cpp",
+  "output": "CMakeFiles/CrossPlatformTest.dir/examples/cross_platform_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o -c /Users/darkstar/darkengine/examples/graphics_structure_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/graphics_structure_test.cpp",
+  "output": "CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "output": "CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o -c /Users/darkstar/darkengine/examples/graphics_core_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/graphics_core_test.cpp",
+  "output": "CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "output": "CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "output": "CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o -c /Users/darkstar/darkengine/src/graphics/Texture.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Texture.cpp",
+  "output": "CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.o -c /Users/darkstar/darkengine/examples/game_integration_test.cpp",
+  "file": "/Users/darkstar/darkengine/examples/game_integration_test.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Sprite.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.o -c /Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.o -c /Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.o -c /Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.o -c /Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.o -c /Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.o -c /Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.o -c /Users/darkstar/darkengine/src/core/Event.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/Event.cpp",
+  "output": "CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoGame.dir/examples/rpg_demo_game.cpp.o -c /Users/darkstar/darkengine/examples/rpg_demo_game.cpp",
+  "file": "/Users/darkstar/darkengine/examples/rpg_demo_game.cpp",
+  "output": "CMakeFiles/RPGDemoGame.dir/examples/rpg_demo_game.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o -c /Users/darkstar/darkengine/examples/rpg_demo_simple.cpp",
+  "file": "/Users/darkstar/darkengine/examples/rpg_demo_simple.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o -c /Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/ConfigurationManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o -c /Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o -c /Users/darkstar/darkengine/src/core/Event.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/Event.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o -c /Users/darkstar/darkengine/src/systems/SystemManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/SystemManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o -c /Users/darkstar/darkengine/src/systems/System.cpp",
+  "file": "/Users/darkstar/darkengine/src/systems/System.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o -c /Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o -c /Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o -c /Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o -c /Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o -c /Users/darkstar/darkengine/src/components/DialogueComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/DialogueComponent.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o -c /Users/darkstar/darkengine/src/components/QuestComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/QuestComponent.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o -c /Users/darkstar/darkengine/src/scene/SceneManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/SceneManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o -c /Users/darkstar/darkengine/src/scene/Scene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/Scene.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o -c /Users/darkstar/darkengine/src/scene/GameScene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/GameScene.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o -c /Users/darkstar/darkengine/src/scene/MenuScene.cpp",
+  "file": "/Users/darkstar/darkengine/src/scene/MenuScene.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o -c /Users/darkstar/darkengine/src/save/SaveManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/SaveManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o -c /Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp",
+  "file": "/Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o -c /Users/darkstar/darkengine/src/resources/ResourceManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/resources/ResourceManager.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp",
+  "file": "/Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp",
+  "output": "CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/examples/rpg_demo_minimal.cpp.o -c /Users/darkstar/darkengine/examples/rpg_demo_minimal.cpp",
+  "file": "/Users/darkstar/darkengine/examples/rpg_demo_minimal.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/examples/rpg_demo_minimal.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/core/EngineCore.cpp.o -c /Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineCore.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/core/EngineCore.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/core/EngineConfig.cpp.o -c /Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/EngineConfig.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/core/EngineConfig.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/core/Event.cpp.o -c /Users/darkstar/darkengine/src/core/Event.cpp",
+  "file": "/Users/darkstar/darkengine/src/core/Event.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/core/Event.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/entities/EntityManager.cpp.o -c /Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/entities/EntityManager.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/entities/EntityManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/components/ComponentManager.cpp.o -c /Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/ComponentManager.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/components/ComponentManager.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/components/StatsComponent.cpp.o -c /Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/StatsComponent.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/components/StatsComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/components/InventoryComponent.cpp.o -c /Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "file": "/Users/darkstar/darkengine/src/components/InventoryComponent.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/components/InventoryComponent.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/graphics/OpenGLAPI.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/Camera.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/graphics/Camera.cpp.o"
+},
+{
+  "directory": "/Users/darkstar/darkengine/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-15 -DPLATFORM_MACOS=1 -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include  -stdlib=libc++ -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/RPGDemoMinimal.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "file": "/Users/darkstar/darkengine/src/graphics/ShaderManager.cpp",
+  "output": "CMakeFiles/RPGDemoMinimal.dir/src/graphics/ShaderManager.cpp.o"
+}
+]

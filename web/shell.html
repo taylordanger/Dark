@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Engine - Web Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            color: #4CAF50;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .header p {
+            color: #cccccc;
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        
+        .game-container {
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 90vw;
+            max-height: 80vh;
+        }
+        
+        canvas {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            background-color: #000000;
+        }
+        
+        .controls {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .controls h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        
+        .controls p {
+            margin: 5px 0;
+            color: #cccccc;
+        }
+        
+        .status {
+            margin-top: 20px;
+            text-align: center;
+            font-family: monospace;
+            background-color: #333333;
+            padding: 10px;
+            border-radius: 5px;
+            min-height: 20px;
+        }
+        
+        .loading {
+            color: #FFA500;
+        }
+        
+        .ready {
+            color: #4CAF50;
+        }
+        
+        .error {
+            color: #FF6B6B;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #888888;
+            font-size: 0.9em;
+        }
+        
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎮 RPG Engine</h1>
+        <p>2D RPG Game Engine Framework - Web Demo</p>
+    </div>
+    
+    <div class="game-container">
+        <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+        
+        <div class="controls">
+            <h3>Controls</h3>
+            <p><strong>WASD</strong> - Move character</p>
+            <p><strong>Space</strong> - Interact/Action</p>
+            <p><strong>ESC</strong> - Menu</p>
+            <p><strong>Mouse</strong> - UI interaction</p>
+        </div>
+        
+        <div class="status" id="status">
+            <span class="loading">Loading engine...</span>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Built with <a href="https://emscripten.org/" target="_blank">Emscripten</a></p>
+        <p>RPG Engine Framework © 2025</p>
+    </div>
+
+    <script type='text/javascript'>
+        var statusElement = document.getElementById('status');
+        var canvas = document.getElementById('canvas');
+        
+        // Set canvas size
+        canvas.width = 800;
+        canvas.height = 600;
+        
+        function updateStatus(message, className) {
+            statusElement.innerHTML = '<span class="' + className + '">' + message + '</span>';
+        }
+        
+        var Module = {
+            preRun: [],
+            postRun: [],
+            canvas: canvas,
+            
+            onRuntimeInitialized: function() {
+                updateStatus('Engine initialized successfully!', 'ready');
+            },
+            
+            print: function(text) {
+                console.log('Engine:', text);
+            },
+            
+            printErr: function(text) {
+                console.error('Engine Error:', text);
+                updateStatus('Engine error: ' + text, 'error');
+            },
+            
+            setStatus: function(text) {
+                if (text) {
+                    updateStatus(text, 'loading');
+                } else {
+                    updateStatus('Engine ready', 'ready');
+                }
+            },
+            
+            totalDependencies: 0,
+            monitorRunDependencies: function(left) {
+                this.totalDependencies = Math.max(this.totalDependencies, left);
+                if (left == 0) {
+                    updateStatus('All dependencies loaded', 'ready');
+                } else {
+                    updateStatus('Loading dependencies: ' + (this.totalDependencies - left) + '/' + this.totalDependencies, 'loading');
+                }
+            }
+        };
+        
+        // Handle window resize
+        function resizeCanvas() {
+            var container = document.querySelector('.game-container');
+            var maxWidth = Math.min(window.innerWidth * 0.9, 1024);
+            var maxHeight = Math.min(window.innerHeight * 0.7, 768);
+            
+            var scale = Math.min(maxWidth / canvas.width, maxHeight / canvas.height);
+            if (scale < 1) {
+                canvas.style.width = (canvas.width * scale) + 'px';
+                canvas.style.height = (canvas.height * scale) + 'px';
+            } else {
+                canvas.style.width = canvas.width + 'px';
+                canvas.style.height = canvas.height + 'px';
+            }
+        }
+        
+        window.addEventListener('resize', resizeCanvas);
+        
+        // Initial resize
+        resizeCanvas();
+        
+        // Prevent default behavior for game keys
+        window.addEventListener('keydown', function(e) {
+            if (['Space', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].indexOf(e.code) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+        
+        updateStatus('Initializing WebAssembly...', 'loading');
+    </script>
+    
+    {{{ SCRIPT }}}
+</body>
+</html>

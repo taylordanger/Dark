@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RPGEngineQuestTest",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CombatIntegrationTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CombatIntegrationTest-Debug-9903b8d971986ded8104.json",
+					"name" : "CombatIntegrationTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CombatTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CombatTest-Debug-177fe59ae22b57e30aec.json",
+					"name" : "CombatTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConfigSimpleTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConfigSimpleTest-Debug-605e36386016ecdabb1e.json",
+					"name" : "ConfigSimpleTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContentCreationToolsTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContentCreationToolsTest-Debug-c25f50b8aad04390c6f6.json",
+					"name" : "ContentCreationToolsTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CrossPlatformTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CrossPlatformTest-Debug-4fcdca7c73457664256c.json",
+					"name" : "CrossPlatformTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DebugSystemsMinimalTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DebugSystemsMinimalTest-Debug-16a847f650cec6b099ce.json",
+					"name" : "DebugSystemsMinimalTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DebugSystemsTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DebugSystemsTest-Debug-f1c18914e10d05ec5742.json",
+					"name" : "DebugSystemsTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameIntegrationTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameIntegrationTest-Debug-76ad9eebe6a0c17ca516.json",
+					"name" : "GameIntegrationTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GraphicsCoreTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GraphicsCoreTest-Debug-28076aa989becc1b57d8.json",
+					"name" : "GraphicsCoreTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GraphicsStructureTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GraphicsStructureTest-Debug-175b9ed8ea4667ebf85a.json",
+					"name" : "GraphicsStructureTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PerformanceOptimizationSimpleTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PerformanceOptimizationSimpleTest-Debug-00f737d56b7cc3578d6b.json",
+					"name" : "PerformanceOptimizationSimpleTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PerformanceOptimizationTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PerformanceOptimizationTest-Debug-c2d3c796abc20137c056.json",
+					"name" : "PerformanceOptimizationTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QuestIntegrationSimpleTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QuestIntegrationSimpleTest-Debug-99bea950e81453ac2d0b.json",
+					"name" : "QuestIntegrationSimpleTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RPGDemoGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RPGDemoGame-Debug-67f5344fc3e06a86a944.json",
+					"name" : "RPGDemoGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RPGDemoMinimal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RPGDemoMinimal-Debug-f0832111fa013655d035.json",
+					"name" : "RPGDemoMinimal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RPGDemoSimple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RPGDemoSimple-Debug-c942c88386e2efe317d1.json",
+					"name" : "RPGDemoSimple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RPGEngineMinimal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RPGEngineMinimal-Debug-f631f9ed2963347f657d.json",
+					"name" : "RPGEngineMinimal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SaveLoadIntegrationTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SaveLoadIntegrationTest-Debug-eb209d54ab7fc51900ea.json",
+					"name" : "SaveLoadIntegrationTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SaveSystemDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SaveSystemDemo-Debug-9c78298a9b1d053f4672.json",
+					"name" : "SaveSystemDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SaveSystemTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SaveSystemTest-Debug-838f5cf90e0ef13ce763.json",
+					"name" : "SaveSystemTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScriptingMinimalTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScriptingMinimalTest-Debug-09e021dd7bb6572af569.json",
+					"name" : "ScriptingMinimalTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScriptingTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScriptingTest-Debug-cba8baa925bfb4d64909.json",
+					"name" : "ScriptingTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UIFrameworkSimpleTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UIFrameworkSimpleTest-Debug-a78c525aa308c38f8413.json",
+					"name" : "UIFrameworkSimpleTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UIGameSpecificTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UIGameSpecificTest-Debug-37dade58d71a18134065.json",
+					"name" : "UIGameSpecificTest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/darkstar/darkengine/build",
+		"source" : "/Users/darkstar/darkengine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,146 @@
+{
+  "templates": {
+    "player": {
+      "components": {
+        "StatsComponent": {
+          "health": 100,
+          "maxHealth": 100,
+          "mana": 50,
+          "maxMana": 50,
+          "level": 1,
+          "experience": 0,
+          "attributes": {
+            "strength": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "vitality": 10
+          }
+        },
+        "InventoryComponent": {
+          "capacity": 20,
+          "items": [
+            {"id": "sword_basic", "quantity": 1},
+            {"id": "potion_health", "quantity": 3},
+            {"id": "bread", "quantity": 5}
+          ]
+        },
+        "ScriptComponent": {
+          "script": "function onInitialize() print('Player character initialized!') end function onLevelUp() print('Player leveled up!') end",
+          "eventHandlers": {
+            "onDamage": "onDamage",
+            "onLevelUp": "onLevelUp"
+          }
+        }
+      },
+      "properties": {
+        "name": "Hero",
+        "class": "warrior",
+        "faction": "player"
+      }
+    },
+    "npc_guard": {
+      "components": {
+        "StatsComponent": {
+          "health": 80,
+          "maxHealth": 80,
+          "level": 3,
+          "attributes": {
+            "strength": 12,
+            "dexterity": 8,
+            "intelligence": 6,
+            "vitality": 14
+          }
+        },
+        "InventoryComponent": {
+          "capacity": 10,
+          "items": [
+            {"id": "sword_iron", "quantity": 1},
+            {"id": "armor_leather", "quantity": 1}
+          ]
+        },
+        "ScriptComponent": {
+          "script": "function onInitialize() print('Guard initialized at post') end function onPlayerApproach() print('Halt! Who goes there?') end",
+          "eventHandlers": {
+            "onPlayerApproach": "onPlayerApproach"
+          }
+        }
+      },
+      "properties": {
+        "name": "Town Guard",
+        "class": "guard",
+        "faction": "town",
+        "dialogue": "guard_basic"
+      }
+    },
+    "npc_merchant": {
+      "components": {
+        "StatsComponent": {
+          "health": 60,
+          "maxHealth": 60,
+          "level": 2
+        },
+        "InventoryComponent": {
+          "capacity": 50,
+          "items": [
+            {"id": "potion_health", "quantity": 10},
+            {"id": "potion_mana", "quantity": 8},
+            {"id": "sword_iron", "quantity": 3},
+            {"id": "armor_leather", "quantity": 2}
+          ]
+        },
+        "ScriptComponent": {
+          "script": "function onInitialize() print('Merchant shop is open for business!') end function onTrade() print('Thank you for your business!') end",
+          "eventHandlers": {
+            "onTrade": "onTrade"
+          }
+        }
+      },
+      "properties": {
+        "name": "Shopkeeper Bob",
+        "class": "merchant",
+        "faction": "neutral",
+        "dialogue": "merchant_basic",
+        "shop": {
+          "buyRate": 0.5,
+          "sellRate": 1.2
+        }
+      }
+    },
+    "monster_goblin": {
+      "components": {
+        "StatsComponent": {
+          "health": 40,
+          "maxHealth": 40,
+          "level": 2,
+          "attributes": {
+            "strength": 8,
+            "dexterity": 12,
+            "intelligence": 4,
+            "vitality": 6
+          }
+        },
+        "InventoryComponent": {
+          "capacity": 5,
+          "items": [
+            {"id": "dagger_rusty", "quantity": 1},
+            {"id": "gold_coin", "quantity": 5}
+          ]
+        },
+        "ScriptComponent": {
+          "script": "function onInitialize() print('Goblin spawned and ready to fight!') end function onDeath() print('Goblin defeated!') end",
+          "eventHandlers": {
+            "onDeath": "onDeath",
+            "onCombatStart": "onCombatStart"
+          }
+        }
+      },
+      "properties": {
+        "name": "Goblin Warrior",
+        "class": "monster",
+        "faction": "hostile",
+        "aiType": "aggressive",
+        "experienceReward": 25
+      }
+    }
+  }
+}

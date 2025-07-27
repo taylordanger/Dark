@@ -1,0 +1,34 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/darkstar/darkengine/examples/game_integration_test.cpp" "CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.o.d"
+  "/Users/darkstar/darkengine/src/components/ComponentManager.cpp" "CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.o.d"
+  "/Users/darkstar/darkengine/src/components/InventoryComponent.cpp" "CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.o.d"
+  "/Users/darkstar/darkengine/src/components/StatsComponent.cpp" "CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.o.d"
+  "/Users/darkstar/darkengine/src/core/EngineConfig.cpp" "CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.o.d"
+  "/Users/darkstar/darkengine/src/core/EngineCore.cpp" "CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.o.d"
+  "/Users/darkstar/darkengine/src/core/Event.cpp" "CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.o.d"
+  "/Users/darkstar/darkengine/src/entities/EntityManager.cpp" "CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.o.d"
+  "/Users/darkstar/darkengine/src/graphics/Camera.cpp" "CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.o.d"
+  "/Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp" "CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.o.d"
+  "/Users/darkstar/darkengine/src/graphics/ShaderManager.cpp" "CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.o.d"
+  "/Users/darkstar/darkengine/src/graphics/Sprite.cpp" "CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.o" "gcc" "CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

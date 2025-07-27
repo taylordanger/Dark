@@ -1,0 +1,68 @@
+{
+  "game": {
+    "title": "RPG Engine Demo",
+    "version": "1.0.0",
+    "author": "RPG Engine Team",
+    "description": "A demonstration of the RPG Engine's data-driven configuration system"
+  },
+  "settings": {
+    "graphics": {
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fullscreen": false,
+      "vsync": true,
+      "antialiasing": 4,
+      "textureQuality": "high"
+    },
+    "audio": {
+      "masterVolume": 0.8,
+      "musicVolume": 0.6,
+      "sfxVolume": 0.7,
+      "voiceVolume": 0.9
+    },
+    "gameplay": {
+      "difficulty": "normal",
+      "autoSave": true,
+      "autoSaveInterval": 300,
+      "showDamageNumbers": true,
+      "pauseOnFocusLoss": true
+    }
+  },
+  "player": {
+    "startingLevel": 1,
+    "startingHealth": 100,
+    "startingMana": 50,
+    "startingGold": 100,
+    "startingItems": [
+      {"id": "sword_basic", "quantity": 1},
+      {"id": "potion_health", "quantity": 3},
+      {"id": "bread", "quantity": 5}
+    ],
+    "startingLocation": {
+      "map": "town_center",
+      "x": 100,
+      "y": 200
+    }
+  },
+  "scripting": {
+    "enableHotReloading": true,
+    "scriptPaths": [
+      "scripts/",
+      "mods/scripts/"
+    ],
+    "allowedModules": [
+      "math",
+      "string",
+      "table"
+    ]
+  },
+  "development": {
+    "debugMode": true,
+    "showFPS": true,
+    "showCollisionBoxes": false,
+    "enableConsole": true,
+    "logLevel": "debug"
+  }
+}

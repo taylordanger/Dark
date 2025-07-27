@@ -1,0 +1,103 @@
+{
+  "dialogue_tree": {
+    "start": {
+      "speaker": "Village Elder",
+      "text": "Greetings, brave adventurer! Our village is in great danger.",
+      "choices": [
+        {
+          "text": "What kind of danger?",
+          "next": "danger_explanation"
+        },
+        {
+          "text": "How can I help?",
+          "next": "help_request"
+        },
+        {
+          "text": "I must go now.",
+          "next": "goodbye"
+        }
+      ]
+    },
+    "danger_explanation": {
+      "speaker": "Village Elder",
+      "text": "Goblins have been raiding our village at night, stealing our food and frightening our children. We need someone brave enough to deal with them.",
+      "choices": [
+        {
+          "text": "I'll help you deal with the goblins.",
+          "next": "accept_quest"
+        },
+        {
+          "text": "That sounds too dangerous for me.",
+          "next": "decline_quest"
+        }
+      ]
+    },
+    "help_request": {
+      "speaker": "Village Elder",
+      "text": "If you could eliminate the goblin threat, we would be forever grateful. There are at least two of them lurking near the village outskirts.",
+      "choices": [
+        {
+          "text": "I accept this quest.",
+          "next": "accept_quest",
+          "action": "activate_quest:defend_village"
+        },
+        {
+          "text": "I need to think about it.",
+          "next": "think_about_it"
+        }
+      ]
+    },
+    "accept_quest": {
+      "speaker": "Village Elder",
+      "text": "Thank you, hero! May the gods protect you on your journey. Return to me when the threat is eliminated.",
+      "choices": [
+        {
+          "text": "I won't let you down.",
+          "next": "end"
+        }
+      ],
+      "action": "activate_quest:defend_village"
+    },
+    "decline_quest": {
+      "speaker": "Village Elder",
+      "text": "I understand your caution. Perhaps another brave soul will come to our aid.",
+      "choices": [
+        {
+          "text": "Farewell.",
+          "next": "end"
+        }
+      ]
+    },
+    "think_about_it": {
+      "speaker": "Village Elder",
+      "text": "Take your time, but please don't take too long. Our village depends on it.",
+      "choices": [
+        {
+          "text": "I'll be back soon.",
+          "next": "end"
+        }
+      ]
+    },
+    "goodbye": {
+      "speaker": "Village Elder",
+      "text": "Safe travels, stranger. Our door is always open to you.",
+      "choices": [
+        {
+          "text": "Thank you.",
+          "next": "end"
+        }
+      ]
+    },
+    "quest_complete": {
+      "speaker": "Village Elder",
+      "text": "You've done it! The goblin threat is no more. Please accept this reward as a token of our gratitude.",
+      "choices": [
+        {
+          "text": "It was my pleasure to help.",
+          "next": "end"
+        }
+      ],
+      "action": "complete_quest:defend_village,give_reward:100_gold"
+    }
+  }
+}

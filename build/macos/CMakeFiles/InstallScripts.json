@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/darkstar/darkengine/build/macos/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
