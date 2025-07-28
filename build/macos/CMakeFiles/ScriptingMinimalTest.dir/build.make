@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ScriptingMinimalTest.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/ScriptingMinimalTest.dir/codegen:
 .PHONY : CMakeFiles/ScriptingMinimalTest.dir/codegen
 
 CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o: CMakeFiles/ScriptingMinimalTest.dir/flags.make
-CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o: /Users/darkstar/darkengine/examples/scripting_minimal_test.cpp
+CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o: /Users/darkstar/Dark/examples/scripting_minimal_test.cpp
 CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o: CMakeFiles/ScriptingMinimalTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o -MF CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o.d -o CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o -c /Users/darkstar/darkengine/examples/scripting_minimal_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o -MF CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o.d -o CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o -c /Users/darkstar/Dark/examples/scripting_minimal_test.cpp
 
 CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/scripting_minimal_test.cpp > CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/scripting_minimal_test.cpp > CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.i
 
 CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/scripting_minimal_test.cpp -o CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/scripting_minimal_test.cpp -o CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.s
 
 CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o: CMakeFiles/ScriptingMinimalTest.dir/flags.make
-CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o: /Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp
+CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o: /Users/darkstar/Dark/src/scripting/LuaScriptEngine.cpp
 CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o: CMakeFiles/ScriptingMinimalTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o -MF CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o.d -o CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o -c /Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o -MF CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o.d -o CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o -c /Users/darkstar/Dark/src/scripting/LuaScriptEngine.cpp
 
 CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp > CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/scripting/LuaScriptEngine.cpp > CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.i
 
 CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp -o CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/scripting/LuaScriptEngine.cpp -o CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.s
 
 # Object files for target ScriptingMinimalTest
 ScriptingMinimalTest_OBJECTS = \
@@ -112,7 +112,7 @@ ScriptingMinimalTest: CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_min
 ScriptingMinimalTest: CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o
 ScriptingMinimalTest: CMakeFiles/ScriptingMinimalTest.dir/build.make
 ScriptingMinimalTest: CMakeFiles/ScriptingMinimalTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ScriptingMinimalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ScriptingMinimalTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScriptingMinimalTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/ScriptingMinimalTest.dir/clean:
 .PHONY : CMakeFiles/ScriptingMinimalTest.dir/clean
 
 CMakeFiles/ScriptingMinimalTest.dir/depend:
-	cd /Users/darkstar/darkengine/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos/CMakeFiles/ScriptingMinimalTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos/CMakeFiles/ScriptingMinimalTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ScriptingMinimalTest.dir/depend
 

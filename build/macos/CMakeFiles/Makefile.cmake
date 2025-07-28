@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/darkstar/darkengine/CMakeLists.txt"
+  "/Users/darkstar/Dark/CMakeLists.txt"
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeSystem.cmake"
-  "/Users/darkstar/darkengine/cmake/MacOSXBundleInfo.plist.in"
-  "/Users/darkstar/darkengine/cmake/Platform.cmake"
+  "/Users/darkstar/Dark/cmake/MacOSXBundleInfo.plist.in"
+  "/Users/darkstar/Dark/cmake/Platform.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3Config.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3Targets-release.cmake"
@@ -126,6 +126,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "SaveSystemDemo.app/Contents/MacOS"
   "SaveSystemDemo.app/Contents/Info.plist"
   "SaveSystemDemo.app/Contents/Info.plist"
+  "RPGDemoGame.app/Contents/MacOS"
+  "RPGDemoGame.app/Contents/Info.plist"
+  "RPGDemoGame.app/Contents/Info.plist"
+  "RPGDemoSimple.app/Contents/MacOS"
+  "RPGDemoSimple.app/Contents/Info.plist"
+  "RPGDemoSimple.app/Contents/Info.plist"
+  "RPGDemoMinimal.app/Contents/MacOS"
+  "RPGDemoMinimal.app/Contents/Info.plist"
+  "RPGDemoMinimal.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -149,4 +158,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PerformanceOptimizationTest.dir/DependInfo.cmake"
   "CMakeFiles/PerformanceOptimizationSimpleTest.dir/DependInfo.cmake"
   "CMakeFiles/CrossPlatformTest.dir/DependInfo.cmake"
+  "CMakeFiles/GraphicsStructureTest.dir/DependInfo.cmake"
+  "CMakeFiles/GraphicsCoreTest.dir/DependInfo.cmake"
+  "CMakeFiles/GameIntegrationTest.dir/DependInfo.cmake"
+  "CMakeFiles/RPGDemoGame.dir/DependInfo.cmake"
+  "CMakeFiles/RPGDemoSimple.dir/DependInfo.cmake"
+  "CMakeFiles/RPGDemoMinimal.dir/DependInfo.cmake"
   )

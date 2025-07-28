@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ContentCreationToolsTest.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/ContentCreationToolsTest.dir/codegen:
 .PHONY : CMakeFiles/ContentCreationToolsTest.dir/codegen
 
 CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/flags.make
-CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o: /Users/darkstar/darkengine/examples/content_creation_tools_test.cpp
+CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o: /Users/darkstar/Dark/examples/content_creation_tools_test.cpp
 CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o -c /Users/darkstar/darkengine/examples/content_creation_tools_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o -c /Users/darkstar/Dark/examples/content_creation_tools_test.cpp
 
 CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/content_creation_tools_test.cpp > CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/content_creation_tools_test.cpp > CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.i
 
 CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/content_creation_tools_test.cpp -o CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/content_creation_tools_test.cpp -o CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.s
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/flags.make
-CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o: /Users/darkstar/darkengine/src/tools/MapEditor.cpp
+CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o: /Users/darkstar/Dark/src/tools/MapEditor.cpp
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o -c /Users/darkstar/darkengine/src/tools/MapEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o -c /Users/darkstar/Dark/src/tools/MapEditor.cpp
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/tools/MapEditor.cpp > CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/tools/MapEditor.cpp > CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.i
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/tools/MapEditor.cpp -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/tools/MapEditor.cpp -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.s
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/flags.make
-CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o: /Users/darkstar/darkengine/src/tools/AnimationEditor.cpp
+CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o: /Users/darkstar/Dark/src/tools/AnimationEditor.cpp
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o -c /Users/darkstar/darkengine/src/tools/AnimationEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o -c /Users/darkstar/Dark/src/tools/AnimationEditor.cpp
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/tools/AnimationEditor.cpp > CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/tools/AnimationEditor.cpp > CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.i
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/tools/AnimationEditor.cpp -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/tools/AnimationEditor.cpp -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.s
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/flags.make
-CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o: /Users/darkstar/darkengine/src/tools/DialogueEditor.cpp
+CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o: /Users/darkstar/Dark/src/tools/DialogueEditor.cpp
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o: CMakeFiles/ContentCreationToolsTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o -c /Users/darkstar/darkengine/src/tools/DialogueEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o -MF CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o.d -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o -c /Users/darkstar/Dark/src/tools/DialogueEditor.cpp
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/tools/DialogueEditor.cpp > CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/tools/DialogueEditor.cpp > CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.i
 
 CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/tools/DialogueEditor.cpp -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/tools/DialogueEditor.cpp -o CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.s
 
 # Object files for target ContentCreationToolsTest
 ContentCreationToolsTest_OBJECTS = \
@@ -144,7 +144,7 @@ ContentCreationToolsTest: CMakeFiles/ContentCreationToolsTest.dir/src/tools/Anim
 ContentCreationToolsTest: CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o
 ContentCreationToolsTest: CMakeFiles/ContentCreationToolsTest.dir/build.make
 ContentCreationToolsTest: CMakeFiles/ContentCreationToolsTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ContentCreationToolsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ContentCreationToolsTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ContentCreationToolsTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/ContentCreationToolsTest.dir/clean:
 .PHONY : CMakeFiles/ContentCreationToolsTest.dir/clean
 
 CMakeFiles/ContentCreationToolsTest.dir/depend:
-	cd /Users/darkstar/darkengine/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos/CMakeFiles/ContentCreationToolsTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos/CMakeFiles/ContentCreationToolsTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ContentCreationToolsTest.dir/depend
 

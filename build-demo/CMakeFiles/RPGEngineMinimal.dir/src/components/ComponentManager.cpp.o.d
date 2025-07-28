@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.o: \
-  /Users/darkstar/darkengine/src/components/ComponentManager.cpp \
-  /Users/darkstar/darkengine/src/components/ComponentManager.h \
-  /Users/darkstar/darkengine/src/components/Component.h \
+  /Users/darkstar/Dark/src/components/ComponentManager.cpp \
+  /Users/darkstar/Dark/src/components/ComponentManager.h \
+  /Users/darkstar/Dark/src/components/Component.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -292,7 +292,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_element.h \
-  /Users/darkstar/darkengine/src/components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/components/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -665,7 +665,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/components/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/components/../entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \

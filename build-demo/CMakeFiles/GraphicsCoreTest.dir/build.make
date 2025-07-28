@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build-demo
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build-demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GraphicsCoreTest.dir/depend.make
@@ -73,74 +73,74 @@ CMakeFiles/GraphicsCoreTest.dir/codegen:
 .PHONY : CMakeFiles/GraphicsCoreTest.dir/codegen
 
 CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o: CMakeFiles/GraphicsCoreTest.dir/flags.make
-CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o: /Users/darkstar/darkengine/examples/graphics_core_test.cpp
+CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o: /Users/darkstar/Dark/examples/graphics_core_test.cpp
 CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o: CMakeFiles/GraphicsCoreTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o -c /Users/darkstar/darkengine/examples/graphics_core_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o -c /Users/darkstar/Dark/examples/graphics_core_test.cpp
 
 CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/graphics_core_test.cpp > CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/graphics_core_test.cpp > CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.i
 
 CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/graphics_core_test.cpp -o CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/graphics_core_test.cpp -o CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.s
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o: CMakeFiles/GraphicsCoreTest.dir/flags.make
-CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o: /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp
+CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o: /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o: CMakeFiles/GraphicsCoreTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.i
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.s
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o: CMakeFiles/GraphicsCoreTest.dir/flags.make
-CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o: /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp
+CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o: /Users/darkstar/Dark/src/graphics/ShaderManager.cpp
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o: CMakeFiles/GraphicsCoreTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/Dark/src/graphics/ShaderManager.cpp
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/ShaderManager.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.i
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/ShaderManager.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.s
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o: CMakeFiles/GraphicsCoreTest.dir/flags.make
-CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o: /Users/darkstar/darkengine/src/graphics/Texture.cpp
+CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o: /Users/darkstar/Dark/src/graphics/Texture.cpp
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o: CMakeFiles/GraphicsCoreTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o -c /Users/darkstar/darkengine/src/graphics/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o -c /Users/darkstar/Dark/src/graphics/Texture.cpp
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Texture.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Texture.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.i
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Texture.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Texture.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.s
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o: CMakeFiles/GraphicsCoreTest.dir/flags.make
-CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o: /Users/darkstar/darkengine/src/graphics/Camera.cpp
+CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o: /Users/darkstar/Dark/src/graphics/Camera.cpp
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o: CMakeFiles/GraphicsCoreTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/Dark/src/graphics/Camera.cpp
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Camera.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Camera.cpp > CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.i
 
 CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Camera.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Camera.cpp -o CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.s
 
 # Object files for target GraphicsCoreTest
 GraphicsCoreTest_OBJECTS = \
@@ -161,7 +161,7 @@ GraphicsCoreTest: CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o
 GraphicsCoreTest: CMakeFiles/GraphicsCoreTest.dir/build.make
 GraphicsCoreTest: /opt/homebrew/lib/libglfw.3.4.dylib
 GraphicsCoreTest: CMakeFiles/GraphicsCoreTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GraphicsCoreTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GraphicsCoreTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GraphicsCoreTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/GraphicsCoreTest.dir/clean:
 .PHONY : CMakeFiles/GraphicsCoreTest.dir/clean
 
 CMakeFiles/GraphicsCoreTest.dir/depend:
-	cd /Users/darkstar/darkengine/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo/CMakeFiles/GraphicsCoreTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo/CMakeFiles/GraphicsCoreTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/GraphicsCoreTest.dir/depend
 

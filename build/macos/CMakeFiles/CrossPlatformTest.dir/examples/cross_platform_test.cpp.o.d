@@ -1,5 +1,5 @@
 CMakeFiles/CrossPlatformTest.dir/examples/cross_platform_test.cpp.o: \
-  /Users/darkstar/darkengine/examples/cross_platform_test.cpp \
+  /Users/darkstar/Dark/examples/cross_platform_test.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

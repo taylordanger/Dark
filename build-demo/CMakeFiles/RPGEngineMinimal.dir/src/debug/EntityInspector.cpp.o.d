@@ -1,6 +1,6 @@
 CMakeFiles/RPGEngineMinimal.dir/src/debug/EntityInspector.cpp.o: \
-  /Users/darkstar/darkengine/src/debug/EntityInspector.cpp \
-  /Users/darkstar/darkengine/src/debug/EntityInspector.h \
+  /Users/darkstar/Dark/src/debug/EntityInspector.cpp \
+  /Users/darkstar/Dark/src/debug/EntityInspector.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -776,17 +776,17 @@ CMakeFiles/RPGEngineMinimal.dir/src/debug/EntityInspector.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /Users/darkstar/darkengine/src/debug/../entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/debug/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/debug/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/debug/../entities/EntityManager.h \
+  /Users/darkstar/Dark/src/debug/../entities/Entity.h \
+  /Users/darkstar/Dark/src/debug/../entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Users/darkstar/darkengine/src/debug/../components/ComponentManager.h \
-  /Users/darkstar/darkengine/src/debug/../components/Component.h \
+  /Users/darkstar/Dark/src/debug/../components/ComponentManager.h \
+  /Users/darkstar/Dark/src/debug/../components/Component.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/darkstar/darkengine/src/debug/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/debug/../components/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -799,12 +799,12 @@ CMakeFiles/RPGEngineMinimal.dir/src/debug/EntityInspector.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/darkstar/darkengine/src/debug/../core/Types.h \
-  /Users/darkstar/darkengine/src/debug/../components/TransformComponent.h \
-  /Users/darkstar/darkengine/src/debug/../components/SpriteComponent.h \
-  /Users/darkstar/darkengine/src/debug/../components/PhysicsComponent.h \
-  /Users/darkstar/darkengine/src/debug/../components/StatsComponent.h \
-  /Users/darkstar/darkengine/src/debug/../components/InventoryComponent.h \
+  /Users/darkstar/Dark/src/debug/../core/Types.h \
+  /Users/darkstar/Dark/src/debug/../components/TransformComponent.h \
+  /Users/darkstar/Dark/src/debug/../components/SpriteComponent.h \
+  /Users/darkstar/Dark/src/debug/../components/PhysicsComponent.h \
+  /Users/darkstar/Dark/src/debug/../components/StatsComponent.h \
+  /Users/darkstar/Dark/src/debug/../components/InventoryComponent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree

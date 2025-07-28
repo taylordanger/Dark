@@ -1,8 +1,8 @@
 CMakeFiles/RPGEngineMinimal.dir/src/graphics/AnimationSystem.cpp.o: \
-  /Users/darkstar/darkengine/src/graphics/AnimationSystem.cpp \
-  /Users/darkstar/darkengine/src/graphics/AnimationSystem.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/System.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/graphics/AnimationSystem.cpp \
+  /Users/darkstar/Dark/src/graphics/AnimationSystem.h \
+  /Users/darkstar/Dark/src/graphics/../systems/System.h \
+  /Users/darkstar/Dark/src/graphics/../systems/../core/ISystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -664,8 +664,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/AnimationSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/graphics/../systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/../core/Event.h \
+  /Users/darkstar/Dark/src/graphics/../systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/graphics/../systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -782,16 +782,16 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/AnimationSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/graphics/../entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/graphics/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/graphics/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/graphics/../entities/EntityManager.h \
+  /Users/darkstar/Dark/src/graphics/../entities/Entity.h \
+  /Users/darkstar/Dark/src/graphics/../entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Users/darkstar/darkengine/src/graphics/../components/ComponentManager.h \
-  /Users/darkstar/darkengine/src/graphics/../components/Component.h \
-  /Users/darkstar/darkengine/src/graphics/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/graphics/../components/ComponentManager.h \
+  /Users/darkstar/Dark/src/graphics/../components/Component.h \
+  /Users/darkstar/Dark/src/graphics/../components/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -804,7 +804,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/AnimationSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/darkstar/darkengine/src/graphics/AnimationComponent.h \
-  /Users/darkstar/darkengine/src/graphics/Sprite.h \
-  /Users/darkstar/darkengine/src/graphics/Texture.h \
-  /Users/darkstar/darkengine/src/graphics/IGraphicsAPI.h
+  /Users/darkstar/Dark/src/graphics/AnimationComponent.h \
+  /Users/darkstar/Dark/src/graphics/Sprite.h \
+  /Users/darkstar/Dark/src/graphics/Texture.h \
+  /Users/darkstar/Dark/src/graphics/IGraphicsAPI.h

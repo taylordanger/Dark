@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.o: \
-  /Users/darkstar/darkengine/src/core/EngineCore.cpp \
-  /Users/darkstar/darkengine/src/core/EngineCore.h \
-  /Users/darkstar/darkengine/src/core/IEngine.h \
+  /Users/darkstar/Dark/src/core/EngineCore.cpp \
+  /Users/darkstar/Dark/src/core/EngineCore.h \
+  /Users/darkstar/Dark/src/core/IEngine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -663,8 +663,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/core/ISystem.h \
-  /Users/darkstar/darkengine/src/core/Event.h \
+  /Users/darkstar/Dark/src/core/ISystem.h \
+  /Users/darkstar/Dark/src/core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -780,7 +780,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/darkstar/darkengine/src/core/EngineConfig.h \
+  /Users/darkstar/Dark/src/core/EngineConfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \

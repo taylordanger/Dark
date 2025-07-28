@@ -1,8 +1,8 @@
 CMakeFiles/RPGEngineMinimal.dir/src/systems/CombatSystem.cpp.o: \
-  /Users/darkstar/darkengine/src/systems/CombatSystem.cpp \
-  /Users/darkstar/darkengine/src/systems/CombatSystem.h \
-  /Users/darkstar/darkengine/src/systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/systems/CombatSystem.cpp \
+  /Users/darkstar/Dark/src/systems/CombatSystem.h \
+  /Users/darkstar/Dark/src/systems/System.h \
+  /Users/darkstar/Dark/src/systems/../core/ISystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -664,8 +664,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/CombatSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/systems/../core/Event.h \
+  /Users/darkstar/Dark/src/systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -782,18 +782,18 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/CombatSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/systems/../components/CombatComponent.h \
-  /Users/darkstar/darkengine/src/systems/../components/Component.h \
-  /Users/darkstar/darkengine/src/systems/../components/StatsComponent.h \
-  /Users/darkstar/darkengine/src/systems/../entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/systems/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/systems/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/systems/../components/CombatComponent.h \
+  /Users/darkstar/Dark/src/systems/../components/Component.h \
+  /Users/darkstar/Dark/src/systems/../components/StatsComponent.h \
+  /Users/darkstar/Dark/src/systems/../entities/EntityManager.h \
+  /Users/darkstar/Dark/src/systems/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Users/darkstar/darkengine/src/systems/../components/ComponentManager.h \
-  /Users/darkstar/darkengine/src/systems/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../components/ComponentManager.h \
+  /Users/darkstar/Dark/src/systems/../components/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -856,4 +856,4 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/CombatSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/darkstar/darkengine/src/systems/../components/InventoryComponent.h
+  /Users/darkstar/Dark/src/systems/../components/InventoryComponent.h

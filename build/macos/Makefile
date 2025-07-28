@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles /Users/darkstar/darkengine/build/macos//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles /Users/darkstar/Dark/build/macos//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -350,6 +350,84 @@ CrossPlatformTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrossPlatformTest.dir/build.make CMakeFiles/CrossPlatformTest.dir/build
 .PHONY : CrossPlatformTest/fast
 
+#=============================================================================
+# Target rules for targets named GraphicsStructureTest
+
+# Build rule for target.
+GraphicsStructureTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GraphicsStructureTest
+.PHONY : GraphicsStructureTest
+
+# fast build rule for target.
+GraphicsStructureTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/build
+.PHONY : GraphicsStructureTest/fast
+
+#=============================================================================
+# Target rules for targets named GraphicsCoreTest
+
+# Build rule for target.
+GraphicsCoreTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GraphicsCoreTest
+.PHONY : GraphicsCoreTest
+
+# fast build rule for target.
+GraphicsCoreTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/build
+.PHONY : GraphicsCoreTest/fast
+
+#=============================================================================
+# Target rules for targets named GameIntegrationTest
+
+# Build rule for target.
+GameIntegrationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GameIntegrationTest
+.PHONY : GameIntegrationTest
+
+# fast build rule for target.
+GameIntegrationTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/build
+.PHONY : GameIntegrationTest/fast
+
+#=============================================================================
+# Target rules for targets named RPGDemoGame
+
+# Build rule for target.
+RPGDemoGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RPGDemoGame
+.PHONY : RPGDemoGame
+
+# fast build rule for target.
+RPGDemoGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/build
+.PHONY : RPGDemoGame/fast
+
+#=============================================================================
+# Target rules for targets named RPGDemoSimple
+
+# Build rule for target.
+RPGDemoSimple: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RPGDemoSimple
+.PHONY : RPGDemoSimple
+
+# fast build rule for target.
+RPGDemoSimple/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/build
+.PHONY : RPGDemoSimple/fast
+
+#=============================================================================
+# Target rules for targets named RPGDemoMinimal
+
+# Build rule for target.
+RPGDemoMinimal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RPGDemoMinimal
+.PHONY : RPGDemoMinimal
+
+# fast build rule for target.
+RPGDemoMinimal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/build
+.PHONY : RPGDemoMinimal/fast
+
 examples/combat_integration_test.o: examples/combat_integration_test.cpp.o
 .PHONY : examples/combat_integration_test.o
 
@@ -518,6 +596,78 @@ examples/debug_systems_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsTest.dir/build.make CMakeFiles/DebugSystemsTest.dir/examples/debug_systems_test.cpp.s
 .PHONY : examples/debug_systems_test.cpp.s
 
+examples/game_integration_test.o: examples/game_integration_test.cpp.o
+.PHONY : examples/game_integration_test.o
+
+# target to build an object file
+examples/game_integration_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.o
+.PHONY : examples/game_integration_test.cpp.o
+
+examples/game_integration_test.i: examples/game_integration_test.cpp.i
+.PHONY : examples/game_integration_test.i
+
+# target to preprocess a source file
+examples/game_integration_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.i
+.PHONY : examples/game_integration_test.cpp.i
+
+examples/game_integration_test.s: examples/game_integration_test.cpp.s
+.PHONY : examples/game_integration_test.s
+
+# target to generate assembly for a file
+examples/game_integration_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/examples/game_integration_test.cpp.s
+.PHONY : examples/game_integration_test.cpp.s
+
+examples/graphics_core_test.o: examples/graphics_core_test.cpp.o
+.PHONY : examples/graphics_core_test.o
+
+# target to build an object file
+examples/graphics_core_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.o
+.PHONY : examples/graphics_core_test.cpp.o
+
+examples/graphics_core_test.i: examples/graphics_core_test.cpp.i
+.PHONY : examples/graphics_core_test.i
+
+# target to preprocess a source file
+examples/graphics_core_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.i
+.PHONY : examples/graphics_core_test.cpp.i
+
+examples/graphics_core_test.s: examples/graphics_core_test.cpp.s
+.PHONY : examples/graphics_core_test.s
+
+# target to generate assembly for a file
+examples/graphics_core_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/examples/graphics_core_test.cpp.s
+.PHONY : examples/graphics_core_test.cpp.s
+
+examples/graphics_structure_test.o: examples/graphics_structure_test.cpp.o
+.PHONY : examples/graphics_structure_test.o
+
+# target to build an object file
+examples/graphics_structure_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o
+.PHONY : examples/graphics_structure_test.cpp.o
+
+examples/graphics_structure_test.i: examples/graphics_structure_test.cpp.i
+.PHONY : examples/graphics_structure_test.i
+
+# target to preprocess a source file
+examples/graphics_structure_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.i
+.PHONY : examples/graphics_structure_test.cpp.i
+
+examples/graphics_structure_test.s: examples/graphics_structure_test.cpp.s
+.PHONY : examples/graphics_structure_test.s
+
+# target to generate assembly for a file
+examples/graphics_structure_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.s
+.PHONY : examples/graphics_structure_test.cpp.s
+
 examples/performance_optimization_simple_test.o: examples/performance_optimization_simple_test.cpp.o
 .PHONY : examples/performance_optimization_simple_test.o
 
@@ -589,6 +739,78 @@ examples/quest_integration_simple_test.s: examples/quest_integration_simple_test
 examples/quest_integration_simple_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuestIntegrationSimpleTest.dir/build.make CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.s
 .PHONY : examples/quest_integration_simple_test.cpp.s
+
+examples/rpg_demo_game.o: examples/rpg_demo_game.cpp.o
+.PHONY : examples/rpg_demo_game.o
+
+# target to build an object file
+examples/rpg_demo_game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/examples/rpg_demo_game.cpp.o
+.PHONY : examples/rpg_demo_game.cpp.o
+
+examples/rpg_demo_game.i: examples/rpg_demo_game.cpp.i
+.PHONY : examples/rpg_demo_game.i
+
+# target to preprocess a source file
+examples/rpg_demo_game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/examples/rpg_demo_game.cpp.i
+.PHONY : examples/rpg_demo_game.cpp.i
+
+examples/rpg_demo_game.s: examples/rpg_demo_game.cpp.s
+.PHONY : examples/rpg_demo_game.s
+
+# target to generate assembly for a file
+examples/rpg_demo_game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/examples/rpg_demo_game.cpp.s
+.PHONY : examples/rpg_demo_game.cpp.s
+
+examples/rpg_demo_minimal.o: examples/rpg_demo_minimal.cpp.o
+.PHONY : examples/rpg_demo_minimal.o
+
+# target to build an object file
+examples/rpg_demo_minimal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/examples/rpg_demo_minimal.cpp.o
+.PHONY : examples/rpg_demo_minimal.cpp.o
+
+examples/rpg_demo_minimal.i: examples/rpg_demo_minimal.cpp.i
+.PHONY : examples/rpg_demo_minimal.i
+
+# target to preprocess a source file
+examples/rpg_demo_minimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/examples/rpg_demo_minimal.cpp.i
+.PHONY : examples/rpg_demo_minimal.cpp.i
+
+examples/rpg_demo_minimal.s: examples/rpg_demo_minimal.cpp.s
+.PHONY : examples/rpg_demo_minimal.s
+
+# target to generate assembly for a file
+examples/rpg_demo_minimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/examples/rpg_demo_minimal.cpp.s
+.PHONY : examples/rpg_demo_minimal.cpp.s
+
+examples/rpg_demo_simple.o: examples/rpg_demo_simple.cpp.o
+.PHONY : examples/rpg_demo_simple.o
+
+# target to build an object file
+examples/rpg_demo_simple.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o
+.PHONY : examples/rpg_demo_simple.cpp.o
+
+examples/rpg_demo_simple.i: examples/rpg_demo_simple.cpp.i
+.PHONY : examples/rpg_demo_simple.i
+
+# target to preprocess a source file
+examples/rpg_demo_simple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.i
+.PHONY : examples/rpg_demo_simple.cpp.i
+
+examples/rpg_demo_simple.s: examples/rpg_demo_simple.cpp.s
+.PHONY : examples/rpg_demo_simple.s
+
+# target to generate assembly for a file
+examples/rpg_demo_simple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.s
+.PHONY : examples/rpg_demo_simple.cpp.s
 
 examples/save_load_integration_test.o: examples/save_load_integration_test.cpp.o
 .PHONY : examples/save_load_integration_test.o
@@ -908,6 +1130,9 @@ src/components/ComponentManager.o: src/components/ComponentManager.cpp.o
 # target to build an object file
 src/components/ComponentManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/ComponentManager.cpp.o
 .PHONY : src/components/ComponentManager.cpp.o
 
 src/components/ComponentManager.i: src/components/ComponentManager.cpp.i
@@ -916,6 +1141,9 @@ src/components/ComponentManager.i: src/components/ComponentManager.cpp.i
 # target to preprocess a source file
 src/components/ComponentManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/ComponentManager.cpp.i
 .PHONY : src/components/ComponentManager.cpp.i
 
 src/components/ComponentManager.s: src/components/ComponentManager.cpp.s
@@ -924,6 +1152,9 @@ src/components/ComponentManager.s: src/components/ComponentManager.cpp.s
 # target to generate assembly for a file
 src/components/ComponentManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/ComponentManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/ComponentManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/ComponentManager.cpp.s
 .PHONY : src/components/ComponentManager.cpp.s
 
 src/components/DialogueComponent.o: src/components/DialogueComponent.cpp.o
@@ -932,6 +1163,7 @@ src/components/DialogueComponent.o: src/components/DialogueComponent.cpp.o
 # target to build an object file
 src/components/DialogueComponent.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/DialogueComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o
 .PHONY : src/components/DialogueComponent.cpp.o
 
 src/components/DialogueComponent.i: src/components/DialogueComponent.cpp.i
@@ -940,6 +1172,7 @@ src/components/DialogueComponent.i: src/components/DialogueComponent.cpp.i
 # target to preprocess a source file
 src/components/DialogueComponent.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/DialogueComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.i
 .PHONY : src/components/DialogueComponent.cpp.i
 
 src/components/DialogueComponent.s: src/components/DialogueComponent.cpp.s
@@ -948,6 +1181,7 @@ src/components/DialogueComponent.s: src/components/DialogueComponent.cpp.s
 # target to generate assembly for a file
 src/components/DialogueComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/DialogueComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.s
 .PHONY : src/components/DialogueComponent.cpp.s
 
 src/components/InventoryComponent.o: src/components/InventoryComponent.cpp.o
@@ -956,6 +1190,9 @@ src/components/InventoryComponent.o: src/components/InventoryComponent.cpp.o
 # target to build an object file
 src/components/InventoryComponent.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/InventoryComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/InventoryComponent.cpp.o
 .PHONY : src/components/InventoryComponent.cpp.o
 
 src/components/InventoryComponent.i: src/components/InventoryComponent.cpp.i
@@ -964,6 +1201,9 @@ src/components/InventoryComponent.i: src/components/InventoryComponent.cpp.i
 # target to preprocess a source file
 src/components/InventoryComponent.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/InventoryComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/InventoryComponent.cpp.i
 .PHONY : src/components/InventoryComponent.cpp.i
 
 src/components/InventoryComponent.s: src/components/InventoryComponent.cpp.s
@@ -972,6 +1212,9 @@ src/components/InventoryComponent.s: src/components/InventoryComponent.cpp.s
 # target to generate assembly for a file
 src/components/InventoryComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/InventoryComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/InventoryComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/InventoryComponent.cpp.s
 .PHONY : src/components/InventoryComponent.cpp.s
 
 src/components/QuestComponent.o: src/components/QuestComponent.cpp.o
@@ -980,6 +1223,7 @@ src/components/QuestComponent.o: src/components/QuestComponent.cpp.o
 # target to build an object file
 src/components/QuestComponent.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/QuestComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o
 .PHONY : src/components/QuestComponent.cpp.o
 
 src/components/QuestComponent.i: src/components/QuestComponent.cpp.i
@@ -988,6 +1232,7 @@ src/components/QuestComponent.i: src/components/QuestComponent.cpp.i
 # target to preprocess a source file
 src/components/QuestComponent.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/QuestComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.i
 .PHONY : src/components/QuestComponent.cpp.i
 
 src/components/QuestComponent.s: src/components/QuestComponent.cpp.s
@@ -996,6 +1241,7 @@ src/components/QuestComponent.s: src/components/QuestComponent.cpp.s
 # target to generate assembly for a file
 src/components/QuestComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/QuestComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.s
 .PHONY : src/components/QuestComponent.cpp.s
 
 src/components/ScriptComponent.o: src/components/ScriptComponent.cpp.o
@@ -1028,6 +1274,9 @@ src/components/StatsComponent.o: src/components/StatsComponent.cpp.o
 # target to build an object file
 src/components/StatsComponent.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/StatsComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/StatsComponent.cpp.o
 .PHONY : src/components/StatsComponent.cpp.o
 
 src/components/StatsComponent.i: src/components/StatsComponent.cpp.i
@@ -1036,6 +1285,9 @@ src/components/StatsComponent.i: src/components/StatsComponent.cpp.i
 # target to preprocess a source file
 src/components/StatsComponent.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/StatsComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/StatsComponent.cpp.i
 .PHONY : src/components/StatsComponent.cpp.i
 
 src/components/StatsComponent.s: src/components/StatsComponent.cpp.s
@@ -1044,6 +1296,9 @@ src/components/StatsComponent.s: src/components/StatsComponent.cpp.s
 # target to generate assembly for a file
 src/components/StatsComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/components/StatsComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/components/StatsComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/components/StatsComponent.cpp.s
 .PHONY : src/components/StatsComponent.cpp.s
 
 src/core/ConfigurationManager.o: src/core/ConfigurationManager.cpp.o
@@ -1053,6 +1308,7 @@ src/core/ConfigurationManager.o: src/core/ConfigurationManager.cpp.o
 src/core/ConfigurationManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConfigSimpleTest.dir/build.make CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o
 .PHONY : src/core/ConfigurationManager.cpp.o
 
 src/core/ConfigurationManager.i: src/core/ConfigurationManager.cpp.i
@@ -1062,6 +1318,7 @@ src/core/ConfigurationManager.i: src/core/ConfigurationManager.cpp.i
 src/core/ConfigurationManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConfigSimpleTest.dir/build.make CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.i
 .PHONY : src/core/ConfigurationManager.cpp.i
 
 src/core/ConfigurationManager.s: src/core/ConfigurationManager.cpp.s
@@ -1071,6 +1328,7 @@ src/core/ConfigurationManager.s: src/core/ConfigurationManager.cpp.s
 src/core/ConfigurationManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConfigSimpleTest.dir/build.make CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.s
 .PHONY : src/core/ConfigurationManager.cpp.s
 
 src/core/EngineConfig.o: src/core/EngineConfig.cpp.o
@@ -1079,6 +1337,9 @@ src/core/EngineConfig.o: src/core/EngineConfig.cpp.o
 # target to build an object file
 src/core/EngineConfig.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/EngineConfig.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/EngineConfig.cpp.o
 .PHONY : src/core/EngineConfig.cpp.o
 
 src/core/EngineConfig.i: src/core/EngineConfig.cpp.i
@@ -1087,6 +1348,9 @@ src/core/EngineConfig.i: src/core/EngineConfig.cpp.i
 # target to preprocess a source file
 src/core/EngineConfig.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/EngineConfig.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/EngineConfig.cpp.i
 .PHONY : src/core/EngineConfig.cpp.i
 
 src/core/EngineConfig.s: src/core/EngineConfig.cpp.s
@@ -1095,6 +1359,9 @@ src/core/EngineConfig.s: src/core/EngineConfig.cpp.s
 # target to generate assembly for a file
 src/core/EngineConfig.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/EngineConfig.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/EngineConfig.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/EngineConfig.cpp.s
 .PHONY : src/core/EngineConfig.cpp.s
 
 src/core/EngineCore.o: src/core/EngineCore.cpp.o
@@ -1103,6 +1370,9 @@ src/core/EngineCore.o: src/core/EngineCore.cpp.o
 # target to build an object file
 src/core/EngineCore.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/EngineCore.cpp.o
 .PHONY : src/core/EngineCore.cpp.o
 
 src/core/EngineCore.i: src/core/EngineCore.cpp.i
@@ -1111,6 +1381,9 @@ src/core/EngineCore.i: src/core/EngineCore.cpp.i
 # target to preprocess a source file
 src/core/EngineCore.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/EngineCore.cpp.i
 .PHONY : src/core/EngineCore.cpp.i
 
 src/core/EngineCore.s: src/core/EngineCore.cpp.s
@@ -1119,6 +1392,9 @@ src/core/EngineCore.s: src/core/EngineCore.cpp.s
 # target to generate assembly for a file
 src/core/EngineCore.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/EngineCore.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/EngineCore.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/EngineCore.cpp.s
 .PHONY : src/core/EngineCore.cpp.s
 
 src/core/Event.o: src/core/Event.cpp.o
@@ -1127,6 +1403,9 @@ src/core/Event.o: src/core/Event.cpp.o
 # target to build an object file
 src/core/Event.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/Event.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/Event.cpp.o
 .PHONY : src/core/Event.cpp.o
 
 src/core/Event.i: src/core/Event.cpp.i
@@ -1135,6 +1414,9 @@ src/core/Event.i: src/core/Event.cpp.i
 # target to preprocess a source file
 src/core/Event.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/Event.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/Event.cpp.i
 .PHONY : src/core/Event.cpp.i
 
 src/core/Event.s: src/core/Event.cpp.s
@@ -1143,6 +1425,9 @@ src/core/Event.s: src/core/Event.cpp.s
 # target to generate assembly for a file
 src/core/Event.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/core/Event.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/core/Event.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/core/Event.cpp.s
 .PHONY : src/core/Event.cpp.s
 
 src/core/MemoryPool.o: src/core/MemoryPool.cpp.o
@@ -1254,6 +1539,7 @@ src/debug/PerformanceProfiler.o: src/debug/PerformanceProfiler.cpp.o
 src/debug/PerformanceProfiler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/debug/PerformanceProfiler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsMinimalTest.dir/build.make CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o
 .PHONY : src/debug/PerformanceProfiler.cpp.o
 
 src/debug/PerformanceProfiler.i: src/debug/PerformanceProfiler.cpp.i
@@ -1263,6 +1549,7 @@ src/debug/PerformanceProfiler.i: src/debug/PerformanceProfiler.cpp.i
 src/debug/PerformanceProfiler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/debug/PerformanceProfiler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsMinimalTest.dir/build.make CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.i
 .PHONY : src/debug/PerformanceProfiler.cpp.i
 
 src/debug/PerformanceProfiler.s: src/debug/PerformanceProfiler.cpp.s
@@ -1272,6 +1559,7 @@ src/debug/PerformanceProfiler.s: src/debug/PerformanceProfiler.cpp.s
 src/debug/PerformanceProfiler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/debug/PerformanceProfiler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsMinimalTest.dir/build.make CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.s
 .PHONY : src/debug/PerformanceProfiler.cpp.s
 
 src/entities/EntityFactory.o: src/entities/EntityFactory.cpp.o
@@ -1304,6 +1592,9 @@ src/entities/EntityManager.o: src/entities/EntityManager.cpp.o
 # target to build an object file
 src/entities/EntityManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/entities/EntityManager.cpp.o
 .PHONY : src/entities/EntityManager.cpp.o
 
 src/entities/EntityManager.i: src/entities/EntityManager.cpp.i
@@ -1312,6 +1603,9 @@ src/entities/EntityManager.i: src/entities/EntityManager.cpp.i
 # target to preprocess a source file
 src/entities/EntityManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/entities/EntityManager.cpp.i
 .PHONY : src/entities/EntityManager.cpp.i
 
 src/entities/EntityManager.s: src/entities/EntityManager.cpp.s
@@ -1320,6 +1614,9 @@ src/entities/EntityManager.s: src/entities/EntityManager.cpp.s
 # target to generate assembly for a file
 src/entities/EntityManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/entities/EntityManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/entities/EntityManager.cpp.s
 .PHONY : src/entities/EntityManager.cpp.s
 
 src/graphics/AnimationSystem.o: src/graphics/AnimationSystem.cpp.o
@@ -1353,6 +1650,11 @@ src/graphics/Camera.o: src/graphics/Camera.cpp.o
 src/graphics/Camera.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/Camera.cpp.o
 .PHONY : src/graphics/Camera.cpp.o
 
 src/graphics/Camera.i: src/graphics/Camera.cpp.i
@@ -1362,6 +1664,11 @@ src/graphics/Camera.i: src/graphics/Camera.cpp.i
 src/graphics/Camera.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/Camera.cpp.i
 .PHONY : src/graphics/Camera.cpp.i
 
 src/graphics/Camera.s: src/graphics/Camera.cpp.s
@@ -1371,6 +1678,11 @@ src/graphics/Camera.s: src/graphics/Camera.cpp.s
 src/graphics/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/Camera.cpp.s
 .PHONY : src/graphics/Camera.cpp.s
 
 src/graphics/CameraSystem.o: src/graphics/CameraSystem.cpp.o
@@ -1454,6 +1766,10 @@ src/graphics/OpenGLAPI.o: src/graphics/OpenGLAPI.cpp.o
 # target to build an object file
 src/graphics/OpenGLAPI.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/OpenGLAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/OpenGLAPI.cpp.o
 .PHONY : src/graphics/OpenGLAPI.cpp.o
 
 src/graphics/OpenGLAPI.i: src/graphics/OpenGLAPI.cpp.i
@@ -1462,6 +1778,10 @@ src/graphics/OpenGLAPI.i: src/graphics/OpenGLAPI.cpp.i
 # target to preprocess a source file
 src/graphics/OpenGLAPI.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/OpenGLAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/OpenGLAPI.cpp.i
 .PHONY : src/graphics/OpenGLAPI.cpp.i
 
 src/graphics/OpenGLAPI.s: src/graphics/OpenGLAPI.cpp.s
@@ -1470,6 +1790,10 @@ src/graphics/OpenGLAPI.s: src/graphics/OpenGLAPI.cpp.s
 # target to generate assembly for a file
 src/graphics/OpenGLAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/OpenGLAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/OpenGLAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/OpenGLAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/OpenGLAPI.cpp.s
 .PHONY : src/graphics/OpenGLAPI.cpp.s
 
 src/graphics/ShaderManager.o: src/graphics/ShaderManager.cpp.o
@@ -1478,6 +1802,10 @@ src/graphics/ShaderManager.o: src/graphics/ShaderManager.cpp.o
 # target to build an object file
 src/graphics/ShaderManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/ShaderManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/ShaderManager.cpp.o
 .PHONY : src/graphics/ShaderManager.cpp.o
 
 src/graphics/ShaderManager.i: src/graphics/ShaderManager.cpp.i
@@ -1486,6 +1814,10 @@ src/graphics/ShaderManager.i: src/graphics/ShaderManager.cpp.i
 # target to preprocess a source file
 src/graphics/ShaderManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/ShaderManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/ShaderManager.cpp.i
 .PHONY : src/graphics/ShaderManager.cpp.i
 
 src/graphics/ShaderManager.s: src/graphics/ShaderManager.cpp.s
@@ -1494,6 +1826,10 @@ src/graphics/ShaderManager.s: src/graphics/ShaderManager.cpp.s
 # target to generate assembly for a file
 src/graphics/ShaderManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/ShaderManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/ShaderManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/ShaderManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/src/graphics/ShaderManager.cpp.s
 .PHONY : src/graphics/ShaderManager.cpp.s
 
 src/graphics/Sprite.o: src/graphics/Sprite.cpp.o
@@ -1503,6 +1839,8 @@ src/graphics/Sprite.o: src/graphics/Sprite.cpp.o
 src/graphics/Sprite.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Sprite.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.o
 .PHONY : src/graphics/Sprite.cpp.o
 
 src/graphics/Sprite.i: src/graphics/Sprite.cpp.i
@@ -1512,6 +1850,8 @@ src/graphics/Sprite.i: src/graphics/Sprite.cpp.i
 src/graphics/Sprite.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Sprite.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.i
 .PHONY : src/graphics/Sprite.cpp.i
 
 src/graphics/Sprite.s: src/graphics/Sprite.cpp.s
@@ -1521,6 +1861,8 @@ src/graphics/Sprite.s: src/graphics/Sprite.cpp.s
 src/graphics/Sprite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Sprite.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/src/graphics/Sprite.cpp.s
 .PHONY : src/graphics/Sprite.cpp.s
 
 src/graphics/SpriteRenderer.o: src/graphics/SpriteRenderer.cpp.o
@@ -1553,6 +1895,7 @@ src/graphics/Texture.o: src/graphics/Texture.cpp.o
 # target to build an object file
 src/graphics/Texture.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.o
 .PHONY : src/graphics/Texture.cpp.o
 
 src/graphics/Texture.i: src/graphics/Texture.cpp.i
@@ -1561,6 +1904,7 @@ src/graphics/Texture.i: src/graphics/Texture.cpp.i
 # target to preprocess a source file
 src/graphics/Texture.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.i
 .PHONY : src/graphics/Texture.cpp.i
 
 src/graphics/Texture.s: src/graphics/Texture.cpp.s
@@ -1569,6 +1913,7 @@ src/graphics/Texture.s: src/graphics/Texture.cpp.s
 # target to generate assembly for a file
 src/graphics/Texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/graphics/Texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/src/graphics/Texture.cpp.s
 .PHONY : src/graphics/Texture.cpp.s
 
 src/input/GamepadDevice.o: src/input/GamepadDevice.cpp.o
@@ -1817,6 +2162,7 @@ src/resources/ResourceManager.o: src/resources/ResourceManager.cpp.o
 # target to build an object file
 src/resources/ResourceManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/resources/ResourceManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o
 .PHONY : src/resources/ResourceManager.cpp.o
 
 src/resources/ResourceManager.i: src/resources/ResourceManager.cpp.i
@@ -1825,6 +2171,7 @@ src/resources/ResourceManager.i: src/resources/ResourceManager.cpp.i
 # target to preprocess a source file
 src/resources/ResourceManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/resources/ResourceManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.i
 .PHONY : src/resources/ResourceManager.cpp.i
 
 src/resources/ResourceManager.s: src/resources/ResourceManager.cpp.s
@@ -1833,6 +2180,7 @@ src/resources/ResourceManager.s: src/resources/ResourceManager.cpp.s
 # target to generate assembly for a file
 src/resources/ResourceManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/resources/ResourceManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.s
 .PHONY : src/resources/ResourceManager.cpp.s
 
 src/resources/TextureResource.o: src/resources/TextureResource.cpp.o
@@ -1865,6 +2213,7 @@ src/save/JsonSaveSerializer.o: src/save/JsonSaveSerializer.cpp.o
 # target to build an object file
 src/save/JsonSaveSerializer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/save/JsonSaveSerializer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o
 .PHONY : src/save/JsonSaveSerializer.cpp.o
 
 src/save/JsonSaveSerializer.i: src/save/JsonSaveSerializer.cpp.i
@@ -1873,6 +2222,7 @@ src/save/JsonSaveSerializer.i: src/save/JsonSaveSerializer.cpp.i
 # target to preprocess a source file
 src/save/JsonSaveSerializer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/save/JsonSaveSerializer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.i
 .PHONY : src/save/JsonSaveSerializer.cpp.i
 
 src/save/JsonSaveSerializer.s: src/save/JsonSaveSerializer.cpp.s
@@ -1881,6 +2231,7 @@ src/save/JsonSaveSerializer.s: src/save/JsonSaveSerializer.cpp.s
 # target to generate assembly for a file
 src/save/JsonSaveSerializer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/save/JsonSaveSerializer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.s
 .PHONY : src/save/JsonSaveSerializer.cpp.s
 
 src/save/SaveIntegration.o: src/save/SaveIntegration.cpp.o
@@ -1937,6 +2288,7 @@ src/save/SaveManager.o: src/save/SaveManager.cpp.o
 # target to build an object file
 src/save/SaveManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/save/SaveManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o
 .PHONY : src/save/SaveManager.cpp.o
 
 src/save/SaveManager.i: src/save/SaveManager.cpp.i
@@ -1945,6 +2297,7 @@ src/save/SaveManager.i: src/save/SaveManager.cpp.i
 # target to preprocess a source file
 src/save/SaveManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/save/SaveManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.i
 .PHONY : src/save/SaveManager.cpp.i
 
 src/save/SaveManager.s: src/save/SaveManager.cpp.s
@@ -1953,6 +2306,7 @@ src/save/SaveManager.s: src/save/SaveManager.cpp.s
 # target to generate assembly for a file
 src/save/SaveManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/save/SaveManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.s
 .PHONY : src/save/SaveManager.cpp.s
 
 src/save/SystemStateSerializer.o: src/save/SystemStateSerializer.cpp.o
@@ -2009,6 +2363,7 @@ src/scene/GameScene.o: src/scene/GameScene.cpp.o
 # target to build an object file
 src/scene/GameScene.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/GameScene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o
 .PHONY : src/scene/GameScene.cpp.o
 
 src/scene/GameScene.i: src/scene/GameScene.cpp.i
@@ -2017,6 +2372,7 @@ src/scene/GameScene.i: src/scene/GameScene.cpp.i
 # target to preprocess a source file
 src/scene/GameScene.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/GameScene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.i
 .PHONY : src/scene/GameScene.cpp.i
 
 src/scene/GameScene.s: src/scene/GameScene.cpp.s
@@ -2025,6 +2381,7 @@ src/scene/GameScene.s: src/scene/GameScene.cpp.s
 # target to generate assembly for a file
 src/scene/GameScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/GameScene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.s
 .PHONY : src/scene/GameScene.cpp.s
 
 src/scene/MenuScene.o: src/scene/MenuScene.cpp.o
@@ -2033,6 +2390,7 @@ src/scene/MenuScene.o: src/scene/MenuScene.cpp.o
 # target to build an object file
 src/scene/MenuScene.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/MenuScene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o
 .PHONY : src/scene/MenuScene.cpp.o
 
 src/scene/MenuScene.i: src/scene/MenuScene.cpp.i
@@ -2041,6 +2399,7 @@ src/scene/MenuScene.i: src/scene/MenuScene.cpp.i
 # target to preprocess a source file
 src/scene/MenuScene.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/MenuScene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.i
 .PHONY : src/scene/MenuScene.cpp.i
 
 src/scene/MenuScene.s: src/scene/MenuScene.cpp.s
@@ -2049,6 +2408,7 @@ src/scene/MenuScene.s: src/scene/MenuScene.cpp.s
 # target to generate assembly for a file
 src/scene/MenuScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/MenuScene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.s
 .PHONY : src/scene/MenuScene.cpp.s
 
 src/scene/Scene.o: src/scene/Scene.cpp.o
@@ -2057,6 +2417,7 @@ src/scene/Scene.o: src/scene/Scene.cpp.o
 # target to build an object file
 src/scene/Scene.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/Scene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o
 .PHONY : src/scene/Scene.cpp.o
 
 src/scene/Scene.i: src/scene/Scene.cpp.i
@@ -2065,6 +2426,7 @@ src/scene/Scene.i: src/scene/Scene.cpp.i
 # target to preprocess a source file
 src/scene/Scene.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/Scene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.i
 .PHONY : src/scene/Scene.cpp.i
 
 src/scene/Scene.s: src/scene/Scene.cpp.s
@@ -2073,6 +2435,7 @@ src/scene/Scene.s: src/scene/Scene.cpp.s
 # target to generate assembly for a file
 src/scene/Scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/Scene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.s
 .PHONY : src/scene/Scene.cpp.s
 
 src/scene/SceneManager.o: src/scene/SceneManager.cpp.o
@@ -2081,6 +2444,7 @@ src/scene/SceneManager.o: src/scene/SceneManager.cpp.o
 # target to build an object file
 src/scene/SceneManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/SceneManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o
 .PHONY : src/scene/SceneManager.cpp.o
 
 src/scene/SceneManager.i: src/scene/SceneManager.cpp.i
@@ -2089,6 +2453,7 @@ src/scene/SceneManager.i: src/scene/SceneManager.cpp.i
 # target to preprocess a source file
 src/scene/SceneManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/SceneManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.i
 .PHONY : src/scene/SceneManager.cpp.i
 
 src/scene/SceneManager.s: src/scene/SceneManager.cpp.s
@@ -2097,6 +2462,7 @@ src/scene/SceneManager.s: src/scene/SceneManager.cpp.s
 # target to generate assembly for a file
 src/scene/SceneManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/scene/SceneManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.s
 .PHONY : src/scene/SceneManager.cpp.s
 
 src/scripting/LuaScriptEngine.o: src/scripting/LuaScriptEngine.cpp.o
@@ -2252,6 +2618,7 @@ src/systems/System.o: src/systems/System.cpp.o
 # target to build an object file
 src/systems/System.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o
 .PHONY : src/systems/System.cpp.o
 
 src/systems/System.i: src/systems/System.cpp.i
@@ -2260,6 +2627,7 @@ src/systems/System.i: src/systems/System.cpp.i
 # target to preprocess a source file
 src/systems/System.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.i
 .PHONY : src/systems/System.cpp.i
 
 src/systems/System.s: src/systems/System.cpp.s
@@ -2268,6 +2636,7 @@ src/systems/System.s: src/systems/System.cpp.s
 # target to generate assembly for a file
 src/systems/System.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.s
 .PHONY : src/systems/System.cpp.s
 
 src/systems/SystemManager.o: src/systems/SystemManager.cpp.o
@@ -2276,6 +2645,7 @@ src/systems/SystemManager.o: src/systems/SystemManager.cpp.o
 # target to build an object file
 src/systems/SystemManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/systems/SystemManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o
 .PHONY : src/systems/SystemManager.cpp.o
 
 src/systems/SystemManager.i: src/systems/SystemManager.cpp.i
@@ -2284,6 +2654,7 @@ src/systems/SystemManager.i: src/systems/SystemManager.cpp.i
 # target to preprocess a source file
 src/systems/SystemManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/systems/SystemManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.i
 .PHONY : src/systems/SystemManager.cpp.i
 
 src/systems/SystemManager.s: src/systems/SystemManager.cpp.s
@@ -2292,6 +2663,7 @@ src/systems/SystemManager.s: src/systems/SystemManager.cpp.s
 # target to generate assembly for a file
 src/systems/SystemManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/src/systems/SystemManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.s
 .PHONY : src/systems/SystemManager.cpp.s
 
 src/tilemap/MapLoader.o: src/tilemap/MapLoader.cpp.o
@@ -2741,9 +3113,15 @@ help:
 	@echo "... CrossPlatformTest"
 	@echo "... DebugSystemsMinimalTest"
 	@echo "... DebugSystemsTest"
+	@echo "... GameIntegrationTest"
+	@echo "... GraphicsCoreTest"
+	@echo "... GraphicsStructureTest"
 	@echo "... PerformanceOptimizationSimpleTest"
 	@echo "... PerformanceOptimizationTest"
 	@echo "... QuestIntegrationSimpleTest"
+	@echo "... RPGDemoGame"
+	@echo "... RPGDemoMinimal"
+	@echo "... RPGDemoSimple"
 	@echo "... RPGEngineMinimal"
 	@echo "... SaveLoadIntegrationTest"
 	@echo "... SaveSystemDemo"
@@ -2773,6 +3151,15 @@ help:
 	@echo "... examples/debug_systems_test.o"
 	@echo "... examples/debug_systems_test.i"
 	@echo "... examples/debug_systems_test.s"
+	@echo "... examples/game_integration_test.o"
+	@echo "... examples/game_integration_test.i"
+	@echo "... examples/game_integration_test.s"
+	@echo "... examples/graphics_core_test.o"
+	@echo "... examples/graphics_core_test.i"
+	@echo "... examples/graphics_core_test.s"
+	@echo "... examples/graphics_structure_test.o"
+	@echo "... examples/graphics_structure_test.i"
+	@echo "... examples/graphics_structure_test.s"
 	@echo "... examples/performance_optimization_simple_test.o"
 	@echo "... examples/performance_optimization_simple_test.i"
 	@echo "... examples/performance_optimization_simple_test.s"
@@ -2782,6 +3169,15 @@ help:
 	@echo "... examples/quest_integration_simple_test.o"
 	@echo "... examples/quest_integration_simple_test.i"
 	@echo "... examples/quest_integration_simple_test.s"
+	@echo "... examples/rpg_demo_game.o"
+	@echo "... examples/rpg_demo_game.i"
+	@echo "... examples/rpg_demo_game.s"
+	@echo "... examples/rpg_demo_minimal.o"
+	@echo "... examples/rpg_demo_minimal.i"
+	@echo "... examples/rpg_demo_minimal.s"
+	@echo "... examples/rpg_demo_simple.o"
+	@echo "... examples/rpg_demo_simple.i"
+	@echo "... examples/rpg_demo_simple.s"
 	@echo "... examples/save_load_integration_test.o"
 	@echo "... examples/save_load_integration_test.i"
 	@echo "... examples/save_load_integration_test.s"

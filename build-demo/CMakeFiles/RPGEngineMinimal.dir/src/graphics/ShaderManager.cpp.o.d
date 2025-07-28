@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/graphics/ShaderManager.cpp.o: \
-  /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp \
-  /Users/darkstar/darkengine/src/graphics/ShaderManager.h \
-  /Users/darkstar/darkengine/src/graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/graphics/ShaderManager.cpp \
+  /Users/darkstar/Dark/src/graphics/ShaderManager.h \
+  /Users/darkstar/Dark/src/graphics/IGraphicsAPI.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/scripting_minimal_test.cpp" "CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o" "gcc" "CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o.d"
-  "/Users/darkstar/darkengine/src/scripting/LuaScriptEngine.cpp" "CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o" "gcc" "CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o.d"
+  "/Users/darkstar/Dark/examples/scripting_minimal_test.cpp" "CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o" "gcc" "CMakeFiles/ScriptingMinimalTest.dir/examples/scripting_minimal_test.cpp.o.d"
+  "/Users/darkstar/Dark/src/scripting/LuaScriptEngine.cpp" "CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o" "gcc" "CMakeFiles/ScriptingMinimalTest.dir/src/scripting/LuaScriptEngine.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

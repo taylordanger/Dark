@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build-demo
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build-demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RPGDemoSimple.dir/depend.make
@@ -73,340 +73,340 @@ CMakeFiles/RPGDemoSimple.dir/codegen:
 .PHONY : CMakeFiles/RPGDemoSimple.dir/codegen
 
 CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o: /Users/darkstar/darkengine/examples/rpg_demo_simple.cpp
+CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o: /Users/darkstar/Dark/examples/rpg_demo_simple.cpp
 CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o -c /Users/darkstar/darkengine/examples/rpg_demo_simple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.o -c /Users/darkstar/Dark/examples/rpg_demo_simple.cpp
 
 CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/rpg_demo_simple.cpp > CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/rpg_demo_simple.cpp > CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/rpg_demo_simple.cpp -o CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/rpg_demo_simple.cpp -o CMakeFiles/RPGDemoSimple.dir/examples/rpg_demo_simple.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o: /Users/darkstar/darkengine/src/core/EngineCore.cpp
+CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o: /Users/darkstar/Dark/src/core/EngineCore.cpp
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o -c /Users/darkstar/darkengine/src/core/EngineCore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.o -c /Users/darkstar/Dark/src/core/EngineCore.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/EngineCore.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/EngineCore.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/EngineCore.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/EngineCore.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineCore.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o: /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o: /Users/darkstar/Dark/src/core/ConfigurationManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/Dark/src/core/ConfigurationManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/ConfigurationManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/ConfigurationManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/ConfigurationManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o: /Users/darkstar/darkengine/src/core/EngineConfig.cpp
+CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o: /Users/darkstar/Dark/src/core/EngineConfig.cpp
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o -c /Users/darkstar/darkengine/src/core/EngineConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.o -c /Users/darkstar/Dark/src/core/EngineConfig.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/EngineConfig.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/EngineConfig.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/EngineConfig.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/EngineConfig.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/EngineConfig.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o: /Users/darkstar/darkengine/src/core/Event.cpp
+CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o: /Users/darkstar/Dark/src/core/Event.cpp
 CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o -c /Users/darkstar/darkengine/src/core/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.o -c /Users/darkstar/Dark/src/core/Event.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/Event.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/Event.cpp > CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/Event.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/Event.cpp -o CMakeFiles/RPGDemoSimple.dir/src/core/Event.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o: /Users/darkstar/darkengine/src/systems/SystemManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o: /Users/darkstar/Dark/src/systems/SystemManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o -c /Users/darkstar/darkengine/src/systems/SystemManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.o -c /Users/darkstar/Dark/src/systems/SystemManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/systems/SystemManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/systems/SystemManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/systems/SystemManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/systems/SystemManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/systems/SystemManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o: /Users/darkstar/darkengine/src/systems/System.cpp
+CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o: /Users/darkstar/Dark/src/systems/System.cpp
 CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o -c /Users/darkstar/darkengine/src/systems/System.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.o -c /Users/darkstar/Dark/src/systems/System.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/systems/System.cpp > CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/systems/System.cpp > CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/systems/System.cpp -o CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/systems/System.cpp -o CMakeFiles/RPGDemoSimple.dir/src/systems/System.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o: /Users/darkstar/darkengine/src/entities/EntityManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o: /Users/darkstar/Dark/src/entities/EntityManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o -c /Users/darkstar/darkengine/src/entities/EntityManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.o -c /Users/darkstar/Dark/src/entities/EntityManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/entities/EntityManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/entities/EntityManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/entities/EntityManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/entities/EntityManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/entities/EntityManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o: /Users/darkstar/darkengine/src/components/ComponentManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o: /Users/darkstar/Dark/src/components/ComponentManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o -c /Users/darkstar/darkengine/src/components/ComponentManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.o -c /Users/darkstar/Dark/src/components/ComponentManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/components/ComponentManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/components/ComponentManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/components/ComponentManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/components/ComponentManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/ComponentManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o: /Users/darkstar/darkengine/src/components/StatsComponent.cpp
+CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o: /Users/darkstar/Dark/src/components/StatsComponent.cpp
 CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o -c /Users/darkstar/darkengine/src/components/StatsComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.o -c /Users/darkstar/Dark/src/components/StatsComponent.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/components/StatsComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/components/StatsComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/components/StatsComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/components/StatsComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/StatsComponent.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o: /Users/darkstar/darkengine/src/components/InventoryComponent.cpp
+CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o: /Users/darkstar/Dark/src/components/InventoryComponent.cpp
 CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o -c /Users/darkstar/darkengine/src/components/InventoryComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.o -c /Users/darkstar/Dark/src/components/InventoryComponent.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/components/InventoryComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/components/InventoryComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/components/InventoryComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/components/InventoryComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/InventoryComponent.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o: /Users/darkstar/darkengine/src/components/DialogueComponent.cpp
+CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o: /Users/darkstar/Dark/src/components/DialogueComponent.cpp
 CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o -c /Users/darkstar/darkengine/src/components/DialogueComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.o -c /Users/darkstar/Dark/src/components/DialogueComponent.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/components/DialogueComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/components/DialogueComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/components/DialogueComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/components/DialogueComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/DialogueComponent.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o: /Users/darkstar/darkengine/src/components/QuestComponent.cpp
+CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o: /Users/darkstar/Dark/src/components/QuestComponent.cpp
 CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o -c /Users/darkstar/darkengine/src/components/QuestComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.o -c /Users/darkstar/Dark/src/components/QuestComponent.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/components/QuestComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/components/QuestComponent.cpp > CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/components/QuestComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/components/QuestComponent.cpp -o CMakeFiles/RPGDemoSimple.dir/src/components/QuestComponent.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o: /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp
+CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o: /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp
 CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.o -c /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp > CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp > CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/OpenGLAPI.cpp -o CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/OpenGLAPI.cpp -o CMakeFiles/RPGDemoSimple.dir/src/graphics/OpenGLAPI.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o: /Users/darkstar/darkengine/src/graphics/Camera.cpp
+CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o: /Users/darkstar/Dark/src/graphics/Camera.cpp
 CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/Dark/src/graphics/Camera.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Camera.cpp > CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Camera.cpp > CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Camera.cpp -o CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Camera.cpp -o CMakeFiles/RPGDemoSimple.dir/src/graphics/Camera.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o: /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o: /Users/darkstar/Dark/src/graphics/ShaderManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.o -c /Users/darkstar/Dark/src/graphics/ShaderManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/ShaderManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/ShaderManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/ShaderManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/graphics/ShaderManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o: /Users/darkstar/darkengine/src/scene/SceneManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o: /Users/darkstar/Dark/src/scene/SceneManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o -c /Users/darkstar/darkengine/src/scene/SceneManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.o -c /Users/darkstar/Dark/src/scene/SceneManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/scene/SceneManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/scene/SceneManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/scene/SceneManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/scene/SceneManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/SceneManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o: /Users/darkstar/darkengine/src/scene/Scene.cpp
+CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o: /Users/darkstar/Dark/src/scene/Scene.cpp
 CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o -c /Users/darkstar/darkengine/src/scene/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.o -c /Users/darkstar/Dark/src/scene/Scene.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/scene/Scene.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/scene/Scene.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/scene/Scene.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/scene/Scene.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/Scene.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o: /Users/darkstar/darkengine/src/scene/GameScene.cpp
+CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o: /Users/darkstar/Dark/src/scene/GameScene.cpp
 CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o -c /Users/darkstar/darkengine/src/scene/GameScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.o -c /Users/darkstar/Dark/src/scene/GameScene.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/scene/GameScene.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/scene/GameScene.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/scene/GameScene.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/scene/GameScene.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/GameScene.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o: /Users/darkstar/darkengine/src/scene/MenuScene.cpp
+CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o: /Users/darkstar/Dark/src/scene/MenuScene.cpp
 CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o -c /Users/darkstar/darkengine/src/scene/MenuScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.o -c /Users/darkstar/Dark/src/scene/MenuScene.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/scene/MenuScene.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/scene/MenuScene.cpp > CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/scene/MenuScene.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/scene/MenuScene.cpp -o CMakeFiles/RPGDemoSimple.dir/src/scene/MenuScene.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o: /Users/darkstar/darkengine/src/save/SaveManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o: /Users/darkstar/Dark/src/save/SaveManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o -c /Users/darkstar/darkengine/src/save/SaveManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.o -c /Users/darkstar/Dark/src/save/SaveManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/save/SaveManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/save/SaveManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/save/SaveManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/save/SaveManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/save/SaveManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o: /Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp
+CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o: /Users/darkstar/Dark/src/save/JsonSaveSerializer.cpp
 CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o -c /Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.o -c /Users/darkstar/Dark/src/save/JsonSaveSerializer.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp > CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/save/JsonSaveSerializer.cpp > CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/save/JsonSaveSerializer.cpp -o CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/save/JsonSaveSerializer.cpp -o CMakeFiles/RPGDemoSimple.dir/src/save/JsonSaveSerializer.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o: /Users/darkstar/darkengine/src/resources/ResourceManager.cpp
+CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o: /Users/darkstar/Dark/src/resources/ResourceManager.cpp
 CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o -c /Users/darkstar/darkengine/src/resources/ResourceManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.o -c /Users/darkstar/Dark/src/resources/ResourceManager.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/resources/ResourceManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/resources/ResourceManager.cpp > CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/resources/ResourceManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/resources/ResourceManager.cpp -o CMakeFiles/RPGDemoSimple.dir/src/resources/ResourceManager.cpp.s
 
 CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o: CMakeFiles/RPGDemoSimple.dir/flags.make
-CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o: /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp
+CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o: /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp
 CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o: CMakeFiles/RPGDemoSimple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o -MF CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o.d -o CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp
 
 CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp > CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp > CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.i
 
 CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp -o CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp -o CMakeFiles/RPGDemoSimple.dir/src/debug/PerformanceProfiler.cpp.s
 
 # Object files for target RPGDemoSimple
 RPGDemoSimple_OBJECTS = \
@@ -465,7 +465,7 @@ RPGDemoSimple.app/Contents/MacOS/RPGDemoSimple: CMakeFiles/RPGDemoSimple.dir/src
 RPGDemoSimple.app/Contents/MacOS/RPGDemoSimple: CMakeFiles/RPGDemoSimple.dir/build.make
 RPGDemoSimple.app/Contents/MacOS/RPGDemoSimple: /opt/homebrew/lib/libglfw.3.4.dylib
 RPGDemoSimple.app/Contents/MacOS/RPGDemoSimple: CMakeFiles/RPGDemoSimple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable RPGDemoSimple.app/Contents/MacOS/RPGDemoSimple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable RPGDemoSimple.app/Contents/MacOS/RPGDemoSimple"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RPGDemoSimple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -477,6 +477,6 @@ CMakeFiles/RPGDemoSimple.dir/clean:
 .PHONY : CMakeFiles/RPGDemoSimple.dir/clean
 
 CMakeFiles/RPGDemoSimple.dir/depend:
-	cd /Users/darkstar/darkengine/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo/CMakeFiles/RPGDemoSimple.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo/CMakeFiles/RPGDemoSimple.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RPGDemoSimple.dir/depend
 

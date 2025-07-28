@@ -1,0 +1,9 @@
+# Audio Assets Placeholder
+
+This directory should contain:
+- background_music.ogg - Background music for the demo
+- footstep.wav - Footstep sound effect
+- sword_hit.wav - Combat sound effect
+- item_pickup.wav - Item pickup sound effect
+
+For the demo, these files are optional and the game will continue without them.

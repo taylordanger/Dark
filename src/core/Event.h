@@ -52,6 +52,9 @@ namespace RPGEngine {
         EventDispatcher() = default;
         ~EventDispatcher() = default;
         
+        template<typename T>
+        void getInstance();
+        
         /**
          * Subscribe to an event type
          * @param handler Function to call when event is dispatched

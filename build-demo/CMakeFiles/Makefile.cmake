@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/darkstar/darkengine/CMakeLists.txt"
+  "/Users/darkstar/Dark/CMakeLists.txt"
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeSystem.cmake"
-  "/Users/darkstar/darkengine/cmake/MacOSXBundleInfo.plist.in"
-  "/Users/darkstar/darkengine/cmake/Platform.cmake"
+  "/Users/darkstar/Dark/cmake/MacOSXBundleInfo.plist.in"
+  "/Users/darkstar/Dark/cmake/Platform.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3Config.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3Targets-release.cmake"

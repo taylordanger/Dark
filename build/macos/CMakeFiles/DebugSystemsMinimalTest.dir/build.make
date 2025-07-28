@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DebugSystemsMinimalTest.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/DebugSystemsMinimalTest.dir/codegen:
 .PHONY : CMakeFiles/DebugSystemsMinimalTest.dir/codegen
 
 CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o: CMakeFiles/DebugSystemsMinimalTest.dir/flags.make
-CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o: /Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp
+CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o: /Users/darkstar/Dark/examples/debug_systems_minimal_test.cpp
 CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o: CMakeFiles/DebugSystemsMinimalTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o -MF CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o.d -o CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o -c /Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o -MF CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o.d -o CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o -c /Users/darkstar/Dark/examples/debug_systems_minimal_test.cpp
 
 CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp > CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/debug_systems_minimal_test.cpp > CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.i
 
 CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp -o CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/debug_systems_minimal_test.cpp -o CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.s
 
 CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o: CMakeFiles/DebugSystemsMinimalTest.dir/flags.make
-CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o: /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp
+CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o: /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp
 CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o: CMakeFiles/DebugSystemsMinimalTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o -MF CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o.d -o CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o -MF CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o.d -o CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o -c /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp
 
 CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp > CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp > CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.i
 
 CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp -o CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp -o CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.s
 
 # Object files for target DebugSystemsMinimalTest
 DebugSystemsMinimalTest_OBJECTS = \
@@ -112,7 +112,7 @@ DebugSystemsMinimalTest: CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_s
 DebugSystemsMinimalTest: CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o
 DebugSystemsMinimalTest: CMakeFiles/DebugSystemsMinimalTest.dir/build.make
 DebugSystemsMinimalTest: CMakeFiles/DebugSystemsMinimalTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DebugSystemsMinimalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DebugSystemsMinimalTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DebugSystemsMinimalTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/DebugSystemsMinimalTest.dir/clean:
 .PHONY : CMakeFiles/DebugSystemsMinimalTest.dir/clean
 
 CMakeFiles/DebugSystemsMinimalTest.dir/depend:
-	cd /Users/darkstar/darkengine/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos/CMakeFiles/DebugSystemsMinimalTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos/CMakeFiles/DebugSystemsMinimalTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DebugSystemsMinimalTest.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.o: \
-  /Users/darkstar/darkengine/src/systems/System.cpp \
-  /Users/darkstar/darkengine/src/systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/systems/System.cpp \
+  /Users/darkstar/Dark/src/systems/System.h \
+  /Users/darkstar/Dark/src/systems/../core/ISystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -663,8 +663,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/systems/../core/Event.h \
+  /Users/darkstar/Dark/src/systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -781,9 +781,9 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/System.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/systems/SystemManager.h \
-  /Users/darkstar/darkengine/src/systems/../core/Types.h \
-  /Users/darkstar/darkengine/src/systems/../core/ThreadPool.h \
+  /Users/darkstar/Dark/src/systems/SystemManager.h \
+  /Users/darkstar/Dark/src/systems/../core/Types.h \
+  /Users/darkstar/Dark/src/systems/../core/ThreadPool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \

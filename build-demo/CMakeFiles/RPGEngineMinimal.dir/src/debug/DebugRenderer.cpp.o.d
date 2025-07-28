@@ -1,6 +1,6 @@
 CMakeFiles/RPGEngineMinimal.dir/src/debug/DebugRenderer.cpp.o: \
-  /Users/darkstar/darkengine/src/debug/DebugRenderer.cpp \
-  /Users/darkstar/darkengine/src/debug/DebugRenderer.h \
+  /Users/darkstar/Dark/src/debug/DebugRenderer.cpp \
+  /Users/darkstar/Dark/src/debug/DebugRenderer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -752,6 +752,6 @@ CMakeFiles/RPGEngineMinimal.dir/src/debug/DebugRenderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/darkstar/darkengine/src/debug/../graphics/IGraphicsAPI.h \
-  /Users/darkstar/darkengine/src/debug/../physics/CollisionShape.h \
-  /Users/darkstar/darkengine/src/debug/../core/Types.h
+  /Users/darkstar/Dark/src/debug/../graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/debug/../physics/CollisionShape.h \
+  /Users/darkstar/Dark/src/debug/../core/Types.h

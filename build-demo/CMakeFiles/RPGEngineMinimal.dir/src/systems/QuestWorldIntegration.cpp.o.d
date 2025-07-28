@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestWorldIntegration.cpp.o: \
-  /Users/darkstar/darkengine/src/systems/QuestWorldIntegration.cpp \
-  /Users/darkstar/darkengine/src/systems/QuestWorldIntegration.h \
-  /Users/darkstar/darkengine/src/systems/../core/Event.h \
+  /Users/darkstar/Dark/src/systems/QuestWorldIntegration.cpp \
+  /Users/darkstar/Dark/src/systems/QuestWorldIntegration.h \
+  /Users/darkstar/Dark/src/systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -778,20 +778,20 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestWorldIntegration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/darkstar/darkengine/src/systems/../world/WorldManager.h \
-  /Users/darkstar/darkengine/src/systems/../world/Map.h \
-  /Users/darkstar/darkengine/src/systems/../world/MapObject.h \
-  /Users/darkstar/darkengine/src/systems/../world/../physics/CollisionShape.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/Tilemap.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/TileLayer.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/Tile.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/Tileset.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/../resources/TextureResource.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/../resources/Resource.h \
-  /Users/darkstar/darkengine/src/systems/../world/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/systems/../world/../entities/../core/Types.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/MapLoader.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/../resources/ResourceManager.h \
+  /Users/darkstar/Dark/src/systems/../world/WorldManager.h \
+  /Users/darkstar/Dark/src/systems/../world/Map.h \
+  /Users/darkstar/Dark/src/systems/../world/MapObject.h \
+  /Users/darkstar/Dark/src/systems/../world/../physics/CollisionShape.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/Tilemap.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/TileLayer.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/Tile.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/Tileset.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/../resources/TextureResource.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/../resources/Resource.h \
+  /Users/darkstar/Dark/src/systems/../world/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../world/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/MapLoader.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/../resources/ResourceManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
@@ -822,7 +822,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestWorldIntegration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Users/darkstar/darkengine/src/systems/../world/../tilemap/../utils/XMLParser.h \
+  /Users/darkstar/Dark/src/systems/../world/../tilemap/../utils/XMLParser.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
@@ -842,47 +842,47 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestWorldIntegration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/darkstar/darkengine/src/systems/../world/../resources/ResourceManager.h \
-  /Users/darkstar/darkengine/src/systems/../world/../systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../world/../systems/../core/ISystem.h \
-  /Users/darkstar/darkengine/src/systems/../world/../systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/systems/../world/../systems/../core/Event.h \
+  /Users/darkstar/Dark/src/systems/../world/../resources/ResourceManager.h \
+  /Users/darkstar/Dark/src/systems/../world/../systems/System.h \
+  /Users/darkstar/Dark/src/systems/../world/../systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/systems/../world/../systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/systems/../world/../systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/systems/../world/../entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/systems/../world/../components/ComponentManager.h \
-  /Users/darkstar/darkengine/src/systems/../world/../components/Component.h \
-  /Users/darkstar/darkengine/src/systems/../world/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../world/../entities/EntityManager.h \
+  /Users/darkstar/Dark/src/systems/../world/../components/ComponentManager.h \
+  /Users/darkstar/Dark/src/systems/../world/../components/Component.h \
+  /Users/darkstar/Dark/src/systems/../world/../components/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/darkstar/darkengine/src/systems/../world/../graphics/Camera.h \
-  /Users/darkstar/darkengine/src/systems/../world/../graphics/Sprite.h \
-  /Users/darkstar/darkengine/src/systems/../world/../graphics/Texture.h \
-  /Users/darkstar/darkengine/src/systems/../world/../graphics/IGraphicsAPI.h \
-  /Users/darkstar/darkengine/src/systems/../world/../graphics/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/systems/../world/../core/Event.h \
-  /Users/darkstar/darkengine/src/systems/../systems/QuestSystem.h \
-  /Users/darkstar/darkengine/src/systems/../systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../systems/../components/QuestComponent.h \
-  /Users/darkstar/darkengine/src/systems/../systems/../components/Component.h \
-  /Users/darkstar/darkengine/src/systems/../systems/../components/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/systems/../systems/../entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/systems/../systems/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/systems/../systems/QuestDialogueIntegration.h \
-  /Users/darkstar/darkengine/src/systems/../systems/../components/DialogueComponent.h \
-  /Users/darkstar/darkengine/src/systems/../ui/QuestUI.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/SpriteRenderer.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/IGraphicsAPI.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/ShaderManager.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/Sprite.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/FrustumCuller.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/Camera.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/../systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../graphics/../core/MemoryPool.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../input/InputManager.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../input/IInputDevice.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../input/KeyboardDevice.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../input/MouseDevice.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../input/GamepadDevice.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../input/../systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../components/QuestComponent.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../ui/../core/Types.h
+  /Users/darkstar/Dark/src/systems/../world/../graphics/Camera.h \
+  /Users/darkstar/Dark/src/systems/../world/../graphics/Sprite.h \
+  /Users/darkstar/Dark/src/systems/../world/../graphics/Texture.h \
+  /Users/darkstar/Dark/src/systems/../world/../graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/systems/../world/../graphics/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../world/../core/Event.h \
+  /Users/darkstar/Dark/src/systems/../systems/QuestSystem.h \
+  /Users/darkstar/Dark/src/systems/../systems/System.h \
+  /Users/darkstar/Dark/src/systems/../systems/../components/QuestComponent.h \
+  /Users/darkstar/Dark/src/systems/../systems/../components/Component.h \
+  /Users/darkstar/Dark/src/systems/../systems/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../systems/../entities/EntityManager.h \
+  /Users/darkstar/Dark/src/systems/../systems/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../systems/QuestDialogueIntegration.h \
+  /Users/darkstar/Dark/src/systems/../systems/../components/DialogueComponent.h \
+  /Users/darkstar/Dark/src/systems/../ui/QuestUI.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/SpriteRenderer.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/ShaderManager.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/Sprite.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/FrustumCuller.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/Camera.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/../systems/System.h \
+  /Users/darkstar/Dark/src/systems/../ui/../graphics/../core/MemoryPool.h \
+  /Users/darkstar/Dark/src/systems/../ui/../input/InputManager.h \
+  /Users/darkstar/Dark/src/systems/../ui/../input/IInputDevice.h \
+  /Users/darkstar/Dark/src/systems/../ui/../input/KeyboardDevice.h \
+  /Users/darkstar/Dark/src/systems/../ui/../input/MouseDevice.h \
+  /Users/darkstar/Dark/src/systems/../ui/../input/GamepadDevice.h \
+  /Users/darkstar/Dark/src/systems/../ui/../input/../systems/System.h \
+  /Users/darkstar/Dark/src/systems/../ui/../components/QuestComponent.h \
+  /Users/darkstar/Dark/src/systems/../ui/../systems/System.h \
+  /Users/darkstar/Dark/src/systems/../ui/../core/Types.h

@@ -1,6 +1,6 @@
 CMakeFiles/RPGEngineMinimal.dir/src/core/EngineConfig.cpp.o: \
-  /Users/darkstar/darkengine/src/core/EngineConfig.cpp \
-  /Users/darkstar/darkengine/src/core/EngineConfig.h \
+  /Users/darkstar/Dark/src/core/EngineConfig.cpp \
+  /Users/darkstar/Dark/src/core/EngineConfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

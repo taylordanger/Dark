@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/QuestIntegrationSimpleTest.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/QuestIntegrationSimpleTest.dir/codegen:
 .PHONY : CMakeFiles/QuestIntegrationSimpleTest.dir/codegen
 
 CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o: CMakeFiles/QuestIntegrationSimpleTest.dir/flags.make
-CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o: /Users/darkstar/darkengine/examples/quest_integration_simple_test.cpp
+CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o: /Users/darkstar/Dark/examples/quest_integration_simple_test.cpp
 CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o: CMakeFiles/QuestIntegrationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o -MF CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o.d -o CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/quest_integration_simple_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o -MF CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o.d -o CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.o -c /Users/darkstar/Dark/examples/quest_integration_simple_test.cpp
 
 CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/quest_integration_simple_test.cpp > CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/quest_integration_simple_test.cpp > CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.i
 
 CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/quest_integration_simple_test.cpp -o CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/quest_integration_simple_test.cpp -o CMakeFiles/QuestIntegrationSimpleTest.dir/examples/quest_integration_simple_test.cpp.s
 
 # Object files for target QuestIntegrationSimpleTest
 QuestIntegrationSimpleTest_OBJECTS = \
@@ -98,7 +98,7 @@ QuestIntegrationSimpleTest: CMakeFiles/QuestIntegrationSimpleTest.dir/build.make
 QuestIntegrationSimpleTest: libRPGEngineMinimal.a
 QuestIntegrationSimpleTest: /opt/homebrew/lib/libglfw.3.4.dylib
 QuestIntegrationSimpleTest: CMakeFiles/QuestIntegrationSimpleTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable QuestIntegrationSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable QuestIntegrationSimpleTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QuestIntegrationSimpleTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/QuestIntegrationSimpleTest.dir/clean:
 .PHONY : CMakeFiles/QuestIntegrationSimpleTest.dir/clean
 
 CMakeFiles/QuestIntegrationSimpleTest.dir/depend:
-	cd /Users/darkstar/darkengine/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos/CMakeFiles/QuestIntegrationSimpleTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos/CMakeFiles/QuestIntegrationSimpleTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QuestIntegrationSimpleTest.dir/depend
 

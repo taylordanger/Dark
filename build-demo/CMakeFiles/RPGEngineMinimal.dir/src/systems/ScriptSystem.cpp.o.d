@@ -1,8 +1,8 @@
 CMakeFiles/RPGEngineMinimal.dir/src/systems/ScriptSystem.cpp.o: \
-  /Users/darkstar/darkengine/src/systems/ScriptSystem.cpp \
-  /Users/darkstar/darkengine/src/systems/ScriptSystem.h \
-  /Users/darkstar/darkengine/src/systems/System.h \
-  /Users/darkstar/darkengine/src/systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/systems/ScriptSystem.cpp \
+  /Users/darkstar/Dark/src/systems/ScriptSystem.h \
+  /Users/darkstar/Dark/src/systems/System.h \
+  /Users/darkstar/Dark/src/systems/../core/ISystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -664,8 +664,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/ScriptSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/systems/../core/Event.h \
+  /Users/darkstar/Dark/src/systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -782,15 +782,15 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/ScriptSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/systems/../scripting/IScriptEngine.h \
+  /Users/darkstar/Dark/src/systems/../scripting/IScriptEngine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/darkstar/darkengine/src/systems/../components/ScriptComponent.h \
-  /Users/darkstar/darkengine/src/systems/../components/Component.h \
-  /Users/darkstar/darkengine/src/systems/../components/../scripting/IScriptEngine.h \
-  /Users/darkstar/darkengine/external/include/nlohmann/json.hpp \
+  /Users/darkstar/Dark/src/systems/../components/ScriptComponent.h \
+  /Users/darkstar/Dark/src/systems/../components/Component.h \
+  /Users/darkstar/Dark/src/systems/../components/../scripting/IScriptEngine.h \
+  /Users/darkstar/Dark/external/include/nlohmann/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
@@ -845,7 +845,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/ScriptSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /Users/darkstar/darkengine/src/systems/../scripting/LuaScriptEngine.h \
+  /Users/darkstar/Dark/src/systems/../scripting/LuaScriptEngine.h \
   /opt/homebrew/include/lua/lua.hpp /opt/homebrew/include/lua/lua.h \
   /opt/homebrew/include/lua/luaconf.h /opt/homebrew/include/lua/lualib.h \
   /opt/homebrew/include/lua/lauxlib.h \

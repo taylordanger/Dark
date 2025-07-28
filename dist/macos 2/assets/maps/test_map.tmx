@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <properties>
+  <property name="author" value="RPGEngine"/>
+  <property name="description" value="Test map for the RPGEngine"/>
+ </properties>
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32" spacing="0" margin="0">
+  <image source="../textures/terrain.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="solid" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="water" type="bool" value="true"/>
+   </properties>
+   <animation>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="9" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="slippery" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="15">
+  <properties>
+   <property name="parallaxX" type="float" value="1"/>
+   <property name="parallaxY" type="float" value="1"/>
+  </properties>
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+  </data>
+ </layer>
+ <layer id="2" name="Water" width="20" height="15">
+  <properties>
+   <property name="parallaxX" type="float" value="1.1"/>
+   <property name="parallaxY" type="float" value="1.1"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  </data>
+ </layer>
+ <layer id="3" name="Objects" width="20" height="15">
+  <properties>
+   <property name="parallaxX" type="float" value="0.9"/>
+   <property name="parallaxY" type="float" value="0.9"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,17,17,17,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,17,17,17,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,17,17,17,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  </data>
+ </layer>
+</map>

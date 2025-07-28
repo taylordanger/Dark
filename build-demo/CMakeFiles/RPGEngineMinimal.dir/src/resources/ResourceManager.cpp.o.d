@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/resources/ResourceManager.cpp.o: \
-  /Users/darkstar/darkengine/src/resources/ResourceManager.cpp \
-  /Users/darkstar/darkengine/src/resources/ResourceManager.h \
-  /Users/darkstar/darkengine/src/resources/Resource.h \
+  /Users/darkstar/Dark/src/resources/ResourceManager.cpp \
+  /Users/darkstar/Dark/src/resources/ResourceManager.h \
+  /Users/darkstar/Dark/src/resources/Resource.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

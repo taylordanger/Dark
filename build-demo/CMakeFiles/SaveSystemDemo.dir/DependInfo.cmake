@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/save_system_demo.cpp" "CMakeFiles/SaveSystemDemo.dir/examples/save_system_demo.cpp.o" "gcc" "CMakeFiles/SaveSystemDemo.dir/examples/save_system_demo.cpp.o.d"
+  "/Users/darkstar/Dark/examples/save_system_demo.cpp" "CMakeFiles/SaveSystemDemo.dir/examples/save_system_demo.cpp.o" "gcc" "CMakeFiles/SaveSystemDemo.dir/examples/save_system_demo.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

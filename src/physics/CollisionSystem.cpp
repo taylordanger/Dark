@@ -1,6 +1,7 @@
 #include "CollisionSystem.h"
 #include <iostream>
 #include <algorithm>
+#include "../core/Event.h"
 
 namespace RPGEngine {
 namespace Physics {
@@ -114,7 +115,7 @@ void CollisionSystem::onUpdate(float deltaTime) {
                     if (!wasColliding) {
                         // New collision
                         CollisionEvent event(collidable1, collidable2, result);
-                        EventDispatcher::getInstance().dispatch(event);
+                        
                     }
                 }
             } else {

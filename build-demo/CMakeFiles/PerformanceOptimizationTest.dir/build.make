@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build-demo
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build-demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PerformanceOptimizationTest.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/PerformanceOptimizationTest.dir/codegen:
 .PHONY : CMakeFiles/PerformanceOptimizationTest.dir/codegen
 
 CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o: CMakeFiles/PerformanceOptimizationTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o: /Users/darkstar/darkengine/examples/performance_optimization_test.cpp
+CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o: /Users/darkstar/Dark/examples/performance_optimization_test.cpp
 CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o: CMakeFiles/PerformanceOptimizationTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o -MF CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o.d -o CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o -c /Users/darkstar/darkengine/examples/performance_optimization_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o -MF CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o.d -o CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.o -c /Users/darkstar/Dark/examples/performance_optimization_test.cpp
 
 CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/performance_optimization_test.cpp > CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/performance_optimization_test.cpp > CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.i
 
 CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/performance_optimization_test.cpp -o CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/performance_optimization_test.cpp -o CMakeFiles/PerformanceOptimizationTest.dir/examples/performance_optimization_test.cpp.s
 
 # Object files for target PerformanceOptimizationTest
 PerformanceOptimizationTest_OBJECTS = \
@@ -98,7 +98,7 @@ PerformanceOptimizationTest: CMakeFiles/PerformanceOptimizationTest.dir/build.ma
 PerformanceOptimizationTest: libRPGEngineMinimal.a
 PerformanceOptimizationTest: /opt/homebrew/lib/libglfw.3.4.dylib
 PerformanceOptimizationTest: CMakeFiles/PerformanceOptimizationTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PerformanceOptimizationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PerformanceOptimizationTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PerformanceOptimizationTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/PerformanceOptimizationTest.dir/clean:
 .PHONY : CMakeFiles/PerformanceOptimizationTest.dir/clean
 
 CMakeFiles/PerformanceOptimizationTest.dir/depend:
-	cd /Users/darkstar/darkengine/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo/CMakeFiles/PerformanceOptimizationTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo/CMakeFiles/PerformanceOptimizationTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/PerformanceOptimizationTest.dir/depend
 

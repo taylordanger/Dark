@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.o: \
-  /Users/darkstar/darkengine/src/entities/EntityManager.cpp \
-  /Users/darkstar/darkengine/src/entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/entities/Entity.h \
+  /Users/darkstar/Dark/src/entities/EntityManager.cpp \
+  /Users/darkstar/Dark/src/entities/EntityManager.h \
+  /Users/darkstar/Dark/src/entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -663,7 +663,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityManager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/entities/../core/Types.h \
+  /Users/darkstar/Dark/src/entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \

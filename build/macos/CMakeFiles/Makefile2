@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,6 +81,12 @@ all: CMakeFiles/DebugSystemsTest.dir/all
 all: CMakeFiles/PerformanceOptimizationTest.dir/all
 all: CMakeFiles/PerformanceOptimizationSimpleTest.dir/all
 all: CMakeFiles/CrossPlatformTest.dir/all
+all: CMakeFiles/GraphicsStructureTest.dir/all
+all: CMakeFiles/GraphicsCoreTest.dir/all
+all: CMakeFiles/GameIntegrationTest.dir/all
+all: CMakeFiles/RPGDemoGame.dir/all
+all: CMakeFiles/RPGDemoSimple.dir/all
+all: CMakeFiles/RPGDemoMinimal.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -102,6 +108,12 @@ codegen: CMakeFiles/DebugSystemsTest.dir/codegen
 codegen: CMakeFiles/PerformanceOptimizationTest.dir/codegen
 codegen: CMakeFiles/PerformanceOptimizationSimpleTest.dir/codegen
 codegen: CMakeFiles/CrossPlatformTest.dir/codegen
+codegen: CMakeFiles/GraphicsStructureTest.dir/codegen
+codegen: CMakeFiles/GraphicsCoreTest.dir/codegen
+codegen: CMakeFiles/GameIntegrationTest.dir/codegen
+codegen: CMakeFiles/RPGDemoGame.dir/codegen
+codegen: CMakeFiles/RPGDemoSimple.dir/codegen
+codegen: CMakeFiles/RPGDemoMinimal.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -127,6 +139,12 @@ clean: CMakeFiles/DebugSystemsTest.dir/clean
 clean: CMakeFiles/PerformanceOptimizationTest.dir/clean
 clean: CMakeFiles/PerformanceOptimizationSimpleTest.dir/clean
 clean: CMakeFiles/CrossPlatformTest.dir/clean
+clean: CMakeFiles/GraphicsStructureTest.dir/clean
+clean: CMakeFiles/GraphicsCoreTest.dir/clean
+clean: CMakeFiles/GameIntegrationTest.dir/clean
+clean: CMakeFiles/RPGDemoGame.dir/clean
+clean: CMakeFiles/RPGDemoSimple.dir/clean
+clean: CMakeFiles/RPGDemoMinimal.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -136,14 +154,14 @@ clean: CMakeFiles/CrossPlatformTest.dir/clean
 CMakeFiles/RPGEngineMinimal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87 "Built target RPGEngineMinimal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Built target RPGEngineMinimal"
 .PHONY : CMakeFiles/RPGEngineMinimal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RPGEngineMinimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 63
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RPGEngineMinimal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/RPGEngineMinimal.dir/rule
 
 # Convenience name for target.
@@ -153,7 +171,7 @@ RPGEngineMinimal: CMakeFiles/RPGEngineMinimal.dir/rule
 # codegen rule for target.
 CMakeFiles/RPGEngineMinimal.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGEngineMinimal.dir/build.make CMakeFiles/RPGEngineMinimal.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87 "Finished codegen for target RPGEngineMinimal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91 "Finished codegen for target RPGEngineMinimal"
 .PHONY : CMakeFiles/RPGEngineMinimal.dir/codegen
 
 # clean rule for target.
@@ -168,14 +186,14 @@ CMakeFiles/RPGEngineMinimal.dir/clean:
 CMakeFiles/QuestIntegrationSimpleTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuestIntegrationSimpleTest.dir/build.make CMakeFiles/QuestIntegrationSimpleTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuestIntegrationSimpleTest.dir/build.make CMakeFiles/QuestIntegrationSimpleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=23,24 "Built target QuestIntegrationSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=28 "Built target QuestIntegrationSimpleTest"
 .PHONY : CMakeFiles/QuestIntegrationSimpleTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QuestIntegrationSimpleTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QuestIntegrationSimpleTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/QuestIntegrationSimpleTest.dir/rule
 
 # Convenience name for target.
@@ -185,7 +203,7 @@ QuestIntegrationSimpleTest: CMakeFiles/QuestIntegrationSimpleTest.dir/rule
 # codegen rule for target.
 CMakeFiles/QuestIntegrationSimpleTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuestIntegrationSimpleTest.dir/build.make CMakeFiles/QuestIntegrationSimpleTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=23,24 "Finished codegen for target QuestIntegrationSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=28 "Finished codegen for target QuestIntegrationSimpleTest"
 .PHONY : CMakeFiles/QuestIntegrationSimpleTest.dir/codegen
 
 # clean rule for target.
@@ -200,14 +218,14 @@ CMakeFiles/QuestIntegrationSimpleTest.dir/clean:
 CMakeFiles/CombatTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CombatTest.dir/build.make CMakeFiles/CombatTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CombatTest.dir/build.make CMakeFiles/CombatTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=2,3 "Built target CombatTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=2 "Built target CombatTest"
 .PHONY : CMakeFiles/CombatTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CombatTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CombatTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/CombatTest.dir/rule
 
 # Convenience name for target.
@@ -217,7 +235,7 @@ CombatTest: CMakeFiles/CombatTest.dir/rule
 # codegen rule for target.
 CMakeFiles/CombatTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CombatTest.dir/build.make CMakeFiles/CombatTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=2,3 "Finished codegen for target CombatTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=2 "Finished codegen for target CombatTest"
 .PHONY : CMakeFiles/CombatTest.dir/codegen
 
 # clean rule for target.
@@ -232,14 +250,14 @@ CMakeFiles/CombatTest.dir/clean:
 CMakeFiles/CombatIntegrationTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CombatIntegrationTest.dir/build.make CMakeFiles/CombatIntegrationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CombatIntegrationTest.dir/build.make CMakeFiles/CombatIntegrationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=1 "Built target CombatIntegrationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=1 "Built target CombatIntegrationTest"
 .PHONY : CMakeFiles/CombatIntegrationTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CombatIntegrationTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CombatIntegrationTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/CombatIntegrationTest.dir/rule
 
 # Convenience name for target.
@@ -249,7 +267,7 @@ CombatIntegrationTest: CMakeFiles/CombatIntegrationTest.dir/rule
 # codegen rule for target.
 CMakeFiles/CombatIntegrationTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CombatIntegrationTest.dir/build.make CMakeFiles/CombatIntegrationTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=1 "Finished codegen for target CombatIntegrationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=1 "Finished codegen for target CombatIntegrationTest"
 .PHONY : CMakeFiles/CombatIntegrationTest.dir/codegen
 
 # clean rule for target.
@@ -264,14 +282,14 @@ CMakeFiles/CombatIntegrationTest.dir/clean:
 CMakeFiles/SaveSystemTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveSystemTest.dir/build.make CMakeFiles/SaveSystemTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveSystemTest.dir/build.make CMakeFiles/SaveSystemTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=92 "Built target SaveSystemTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=95 "Built target SaveSystemTest"
 .PHONY : CMakeFiles/SaveSystemTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SaveSystemTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SaveSystemTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/SaveSystemTest.dir/rule
 
 # Convenience name for target.
@@ -281,7 +299,7 @@ SaveSystemTest: CMakeFiles/SaveSystemTest.dir/rule
 # codegen rule for target.
 CMakeFiles/SaveSystemTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveSystemTest.dir/build.make CMakeFiles/SaveSystemTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=92 "Finished codegen for target SaveSystemTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=95 "Finished codegen for target SaveSystemTest"
 .PHONY : CMakeFiles/SaveSystemTest.dir/codegen
 
 # clean rule for target.
@@ -296,14 +314,14 @@ CMakeFiles/SaveSystemTest.dir/clean:
 CMakeFiles/SaveSystemDemo.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveSystemDemo.dir/build.make CMakeFiles/SaveSystemDemo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveSystemDemo.dir/build.make CMakeFiles/SaveSystemDemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=90,91 "Built target SaveSystemDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=94 "Built target SaveSystemDemo"
 .PHONY : CMakeFiles/SaveSystemDemo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SaveSystemDemo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SaveSystemDemo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/SaveSystemDemo.dir/rule
 
 # Convenience name for target.
@@ -313,7 +331,7 @@ SaveSystemDemo: CMakeFiles/SaveSystemDemo.dir/rule
 # codegen rule for target.
 CMakeFiles/SaveSystemDemo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveSystemDemo.dir/build.make CMakeFiles/SaveSystemDemo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=90,91 "Finished codegen for target SaveSystemDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=94 "Finished codegen for target SaveSystemDemo"
 .PHONY : CMakeFiles/SaveSystemDemo.dir/codegen
 
 # clean rule for target.
@@ -328,14 +346,14 @@ CMakeFiles/SaveSystemDemo.dir/clean:
 CMakeFiles/SaveLoadIntegrationTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveLoadIntegrationTest.dir/build.make CMakeFiles/SaveLoadIntegrationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveLoadIntegrationTest.dir/build.make CMakeFiles/SaveLoadIntegrationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=88,89 "Built target SaveLoadIntegrationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=92,93 "Built target SaveLoadIntegrationTest"
 .PHONY : CMakeFiles/SaveLoadIntegrationTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SaveLoadIntegrationTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SaveLoadIntegrationTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/SaveLoadIntegrationTest.dir/rule
 
 # Convenience name for target.
@@ -345,7 +363,7 @@ SaveLoadIntegrationTest: CMakeFiles/SaveLoadIntegrationTest.dir/rule
 # codegen rule for target.
 CMakeFiles/SaveLoadIntegrationTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveLoadIntegrationTest.dir/build.make CMakeFiles/SaveLoadIntegrationTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=88,89 "Finished codegen for target SaveLoadIntegrationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=92,93 "Finished codegen for target SaveLoadIntegrationTest"
 .PHONY : CMakeFiles/SaveLoadIntegrationTest.dir/codegen
 
 # clean rule for target.
@@ -360,14 +378,14 @@ CMakeFiles/SaveLoadIntegrationTest.dir/clean:
 CMakeFiles/UIFrameworkSimpleTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UIFrameworkSimpleTest.dir/build.make CMakeFiles/UIFrameworkSimpleTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UIFrameworkSimpleTest.dir/build.make CMakeFiles/UIFrameworkSimpleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=97,98 "Built target UIFrameworkSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=98 "Built target UIFrameworkSimpleTest"
 .PHONY : CMakeFiles/UIFrameworkSimpleTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UIFrameworkSimpleTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/UIFrameworkSimpleTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/UIFrameworkSimpleTest.dir/rule
 
 # Convenience name for target.
@@ -377,7 +395,7 @@ UIFrameworkSimpleTest: CMakeFiles/UIFrameworkSimpleTest.dir/rule
 # codegen rule for target.
 CMakeFiles/UIFrameworkSimpleTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UIFrameworkSimpleTest.dir/build.make CMakeFiles/UIFrameworkSimpleTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=97,98 "Finished codegen for target UIFrameworkSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=98 "Finished codegen for target UIFrameworkSimpleTest"
 .PHONY : CMakeFiles/UIFrameworkSimpleTest.dir/codegen
 
 # clean rule for target.
@@ -392,14 +410,14 @@ CMakeFiles/UIFrameworkSimpleTest.dir/clean:
 CMakeFiles/UIGameSpecificTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UIGameSpecificTest.dir/build.make CMakeFiles/UIGameSpecificTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UIGameSpecificTest.dir/build.make CMakeFiles/UIGameSpecificTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=99,100 "Built target UIGameSpecificTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=99,100 "Built target UIGameSpecificTest"
 .PHONY : CMakeFiles/UIGameSpecificTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UIGameSpecificTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/UIGameSpecificTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/UIGameSpecificTest.dir/rule
 
 # Convenience name for target.
@@ -409,7 +427,7 @@ UIGameSpecificTest: CMakeFiles/UIGameSpecificTest.dir/rule
 # codegen rule for target.
 CMakeFiles/UIGameSpecificTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UIGameSpecificTest.dir/build.make CMakeFiles/UIGameSpecificTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=99,100 "Finished codegen for target UIGameSpecificTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=99,100 "Finished codegen for target UIGameSpecificTest"
 .PHONY : CMakeFiles/UIGameSpecificTest.dir/codegen
 
 # clean rule for target.
@@ -424,14 +442,14 @@ CMakeFiles/UIGameSpecificTest.dir/clean:
 CMakeFiles/ScriptingTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptingTest.dir/build.make CMakeFiles/ScriptingTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptingTest.dir/build.make CMakeFiles/ScriptingTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=96 "Built target ScriptingTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=97 "Built target ScriptingTest"
 .PHONY : CMakeFiles/ScriptingTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ScriptingTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ScriptingTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/ScriptingTest.dir/rule
 
 # Convenience name for target.
@@ -441,7 +459,7 @@ ScriptingTest: CMakeFiles/ScriptingTest.dir/rule
 # codegen rule for target.
 CMakeFiles/ScriptingTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptingTest.dir/build.make CMakeFiles/ScriptingTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=96 "Finished codegen for target ScriptingTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=97 "Finished codegen for target ScriptingTest"
 .PHONY : CMakeFiles/ScriptingTest.dir/codegen
 
 # clean rule for target.
@@ -456,14 +474,14 @@ CMakeFiles/ScriptingTest.dir/clean:
 CMakeFiles/ScriptingMinimalTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptingMinimalTest.dir/build.make CMakeFiles/ScriptingMinimalTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptingMinimalTest.dir/build.make CMakeFiles/ScriptingMinimalTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=93,94,95 "Built target ScriptingMinimalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=96 "Built target ScriptingMinimalTest"
 .PHONY : CMakeFiles/ScriptingMinimalTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ScriptingMinimalTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ScriptingMinimalTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/ScriptingMinimalTest.dir/rule
 
 # Convenience name for target.
@@ -473,7 +491,7 @@ ScriptingMinimalTest: CMakeFiles/ScriptingMinimalTest.dir/rule
 # codegen rule for target.
 CMakeFiles/ScriptingMinimalTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScriptingMinimalTest.dir/build.make CMakeFiles/ScriptingMinimalTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=93,94,95 "Finished codegen for target ScriptingMinimalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=96 "Finished codegen for target ScriptingMinimalTest"
 .PHONY : CMakeFiles/ScriptingMinimalTest.dir/codegen
 
 # clean rule for target.
@@ -488,14 +506,14 @@ CMakeFiles/ScriptingMinimalTest.dir/clean:
 CMakeFiles/ConfigSimpleTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConfigSimpleTest.dir/build.make CMakeFiles/ConfigSimpleTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConfigSimpleTest.dir/build.make CMakeFiles/ConfigSimpleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=4,5 "Built target ConfigSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=3 "Built target ConfigSimpleTest"
 .PHONY : CMakeFiles/ConfigSimpleTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ConfigSimpleTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ConfigSimpleTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/ConfigSimpleTest.dir/rule
 
 # Convenience name for target.
@@ -505,7 +523,7 @@ ConfigSimpleTest: CMakeFiles/ConfigSimpleTest.dir/rule
 # codegen rule for target.
 CMakeFiles/ConfigSimpleTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConfigSimpleTest.dir/build.make CMakeFiles/ConfigSimpleTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=4,5 "Finished codegen for target ConfigSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=3 "Finished codegen for target ConfigSimpleTest"
 .PHONY : CMakeFiles/ConfigSimpleTest.dir/codegen
 
 # clean rule for target.
@@ -520,14 +538,14 @@ CMakeFiles/ConfigSimpleTest.dir/clean:
 CMakeFiles/DebugSystemsMinimalTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsMinimalTest.dir/build.make CMakeFiles/DebugSystemsMinimalTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsMinimalTest.dir/build.make CMakeFiles/DebugSystemsMinimalTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=12,13 "Built target DebugSystemsMinimalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=8,9 "Built target DebugSystemsMinimalTest"
 .PHONY : CMakeFiles/DebugSystemsMinimalTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DebugSystemsMinimalTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DebugSystemsMinimalTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/DebugSystemsMinimalTest.dir/rule
 
 # Convenience name for target.
@@ -537,7 +555,7 @@ DebugSystemsMinimalTest: CMakeFiles/DebugSystemsMinimalTest.dir/rule
 # codegen rule for target.
 CMakeFiles/DebugSystemsMinimalTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsMinimalTest.dir/build.make CMakeFiles/DebugSystemsMinimalTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=12,13 "Finished codegen for target DebugSystemsMinimalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=8,9 "Finished codegen for target DebugSystemsMinimalTest"
 .PHONY : CMakeFiles/DebugSystemsMinimalTest.dir/codegen
 
 # clean rule for target.
@@ -552,14 +570,14 @@ CMakeFiles/DebugSystemsMinimalTest.dir/clean:
 CMakeFiles/ContentCreationToolsTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContentCreationToolsTest.dir/build.make CMakeFiles/ContentCreationToolsTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContentCreationToolsTest.dir/build.make CMakeFiles/ContentCreationToolsTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=6,7,8,9 "Built target ContentCreationToolsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=4,5,6 "Built target ContentCreationToolsTest"
 .PHONY : CMakeFiles/ContentCreationToolsTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ContentCreationToolsTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ContentCreationToolsTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/ContentCreationToolsTest.dir/rule
 
 # Convenience name for target.
@@ -569,7 +587,7 @@ ContentCreationToolsTest: CMakeFiles/ContentCreationToolsTest.dir/rule
 # codegen rule for target.
 CMakeFiles/ContentCreationToolsTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContentCreationToolsTest.dir/build.make CMakeFiles/ContentCreationToolsTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=6,7,8,9 "Finished codegen for target ContentCreationToolsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=4,5,6 "Finished codegen for target ContentCreationToolsTest"
 .PHONY : CMakeFiles/ContentCreationToolsTest.dir/codegen
 
 # clean rule for target.
@@ -584,14 +602,14 @@ CMakeFiles/ContentCreationToolsTest.dir/clean:
 CMakeFiles/DebugSystemsTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsTest.dir/build.make CMakeFiles/DebugSystemsTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsTest.dir/build.make CMakeFiles/DebugSystemsTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=14,15 "Built target DebugSystemsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=10 "Built target DebugSystemsTest"
 .PHONY : CMakeFiles/DebugSystemsTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DebugSystemsTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DebugSystemsTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/DebugSystemsTest.dir/rule
 
 # Convenience name for target.
@@ -601,7 +619,7 @@ DebugSystemsTest: CMakeFiles/DebugSystemsTest.dir/rule
 # codegen rule for target.
 CMakeFiles/DebugSystemsTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DebugSystemsTest.dir/build.make CMakeFiles/DebugSystemsTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=14,15 "Finished codegen for target DebugSystemsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=10 "Finished codegen for target DebugSystemsTest"
 .PHONY : CMakeFiles/DebugSystemsTest.dir/codegen
 
 # clean rule for target.
@@ -616,14 +634,14 @@ CMakeFiles/DebugSystemsTest.dir/clean:
 CMakeFiles/PerformanceOptimizationTest.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationTest.dir/build.make CMakeFiles/PerformanceOptimizationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationTest.dir/build.make CMakeFiles/PerformanceOptimizationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=21,22 "Built target PerformanceOptimizationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=27 "Built target PerformanceOptimizationTest"
 .PHONY : CMakeFiles/PerformanceOptimizationTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PerformanceOptimizationTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PerformanceOptimizationTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/PerformanceOptimizationTest.dir/rule
 
 # Convenience name for target.
@@ -633,7 +651,7 @@ PerformanceOptimizationTest: CMakeFiles/PerformanceOptimizationTest.dir/rule
 # codegen rule for target.
 CMakeFiles/PerformanceOptimizationTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationTest.dir/build.make CMakeFiles/PerformanceOptimizationTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=21,22 "Finished codegen for target PerformanceOptimizationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=27 "Finished codegen for target PerformanceOptimizationTest"
 .PHONY : CMakeFiles/PerformanceOptimizationTest.dir/codegen
 
 # clean rule for target.
@@ -648,14 +666,14 @@ CMakeFiles/PerformanceOptimizationTest.dir/clean:
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=16,17,18,19,20 "Built target PerformanceOptimizationSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=23,24,25,26 "Built target PerformanceOptimizationSimpleTest"
 .PHONY : CMakeFiles/PerformanceOptimizationSimpleTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PerformanceOptimizationSimpleTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/PerformanceOptimizationSimpleTest.dir/rule
 
 # Convenience name for target.
@@ -665,7 +683,7 @@ PerformanceOptimizationSimpleTest: CMakeFiles/PerformanceOptimizationSimpleTest.
 # codegen rule for target.
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make CMakeFiles/PerformanceOptimizationSimpleTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=16,17,18,19,20 "Finished codegen for target PerformanceOptimizationSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=23,24,25,26 "Finished codegen for target PerformanceOptimizationSimpleTest"
 .PHONY : CMakeFiles/PerformanceOptimizationSimpleTest.dir/codegen
 
 # clean rule for target.
@@ -680,14 +698,14 @@ CMakeFiles/PerformanceOptimizationSimpleTest.dir/clean:
 CMakeFiles/CrossPlatformTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrossPlatformTest.dir/build.make CMakeFiles/CrossPlatformTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrossPlatformTest.dir/build.make CMakeFiles/CrossPlatformTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=10,11 "Built target CrossPlatformTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=7 "Built target CrossPlatformTest"
 .PHONY : CMakeFiles/CrossPlatformTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CrossPlatformTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CrossPlatformTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/darkengine/build/macos/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
 .PHONY : CMakeFiles/CrossPlatformTest.dir/rule
 
 # Convenience name for target.
@@ -697,13 +715,205 @@ CrossPlatformTest: CMakeFiles/CrossPlatformTest.dir/rule
 # codegen rule for target.
 CMakeFiles/CrossPlatformTest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrossPlatformTest.dir/build.make CMakeFiles/CrossPlatformTest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=10,11 "Finished codegen for target CrossPlatformTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=7 "Finished codegen for target CrossPlatformTest"
 .PHONY : CMakeFiles/CrossPlatformTest.dir/codegen
 
 # clean rule for target.
 CMakeFiles/CrossPlatformTest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CrossPlatformTest.dir/build.make CMakeFiles/CrossPlatformTest.dir/clean
 .PHONY : CMakeFiles/CrossPlatformTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GraphicsStructureTest.dir
+
+# All Build rule for target.
+CMakeFiles/GraphicsStructureTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=21,22 "Built target GraphicsStructureTest"
+.PHONY : CMakeFiles/GraphicsStructureTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GraphicsStructureTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GraphicsStructureTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
+.PHONY : CMakeFiles/GraphicsStructureTest.dir/rule
+
+# Convenience name for target.
+GraphicsStructureTest: CMakeFiles/GraphicsStructureTest.dir/rule
+.PHONY : GraphicsStructureTest
+
+# codegen rule for target.
+CMakeFiles/GraphicsStructureTest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=21,22 "Finished codegen for target GraphicsStructureTest"
+.PHONY : CMakeFiles/GraphicsStructureTest.dir/codegen
+
+# clean rule for target.
+CMakeFiles/GraphicsStructureTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsStructureTest.dir/build.make CMakeFiles/GraphicsStructureTest.dir/clean
+.PHONY : CMakeFiles/GraphicsStructureTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GraphicsCoreTest.dir
+
+# All Build rule for target.
+CMakeFiles/GraphicsCoreTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=18,19,20 "Built target GraphicsCoreTest"
+.PHONY : CMakeFiles/GraphicsCoreTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GraphicsCoreTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GraphicsCoreTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
+.PHONY : CMakeFiles/GraphicsCoreTest.dir/rule
+
+# Convenience name for target.
+GraphicsCoreTest: CMakeFiles/GraphicsCoreTest.dir/rule
+.PHONY : GraphicsCoreTest
+
+# codegen rule for target.
+CMakeFiles/GraphicsCoreTest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=18,19,20 "Finished codegen for target GraphicsCoreTest"
+.PHONY : CMakeFiles/GraphicsCoreTest.dir/codegen
+
+# clean rule for target.
+CMakeFiles/GraphicsCoreTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphicsCoreTest.dir/build.make CMakeFiles/GraphicsCoreTest.dir/clean
+.PHONY : CMakeFiles/GraphicsCoreTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GameIntegrationTest.dir
+
+# All Build rule for target.
+CMakeFiles/GameIntegrationTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=11,12,13,14,15,16,17 "Built target GameIntegrationTest"
+.PHONY : CMakeFiles/GameIntegrationTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GameIntegrationTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GameIntegrationTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
+.PHONY : CMakeFiles/GameIntegrationTest.dir/rule
+
+# Convenience name for target.
+GameIntegrationTest: CMakeFiles/GameIntegrationTest.dir/rule
+.PHONY : GameIntegrationTest
+
+# codegen rule for target.
+CMakeFiles/GameIntegrationTest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=11,12,13,14,15,16,17 "Finished codegen for target GameIntegrationTest"
+.PHONY : CMakeFiles/GameIntegrationTest.dir/codegen
+
+# clean rule for target.
+CMakeFiles/GameIntegrationTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameIntegrationTest.dir/build.make CMakeFiles/GameIntegrationTest.dir/clean
+.PHONY : CMakeFiles/GameIntegrationTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RPGDemoGame.dir
+
+# All Build rule for target.
+CMakeFiles/RPGDemoGame.dir/all: CMakeFiles/RPGEngineMinimal.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=29 "Built target RPGDemoGame"
+.PHONY : CMakeFiles/RPGDemoGame.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RPGDemoGame.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 43
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RPGDemoGame.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
+.PHONY : CMakeFiles/RPGDemoGame.dir/rule
+
+# Convenience name for target.
+RPGDemoGame: CMakeFiles/RPGDemoGame.dir/rule
+.PHONY : RPGDemoGame
+
+# codegen rule for target.
+CMakeFiles/RPGDemoGame.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=29 "Finished codegen for target RPGDemoGame"
+.PHONY : CMakeFiles/RPGDemoGame.dir/codegen
+
+# clean rule for target.
+CMakeFiles/RPGDemoGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoGame.dir/build.make CMakeFiles/RPGDemoGame.dir/clean
+.PHONY : CMakeFiles/RPGDemoGame.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RPGDemoSimple.dir
+
+# All Build rule for target.
+CMakeFiles/RPGDemoSimple.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target RPGDemoSimple"
+.PHONY : CMakeFiles/RPGDemoSimple.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RPGDemoSimple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RPGDemoSimple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
+.PHONY : CMakeFiles/RPGDemoSimple.dir/rule
+
+# Convenience name for target.
+RPGDemoSimple: CMakeFiles/RPGDemoSimple.dir/rule
+.PHONY : RPGDemoSimple
+
+# codegen rule for target.
+CMakeFiles/RPGDemoSimple.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49 "Finished codegen for target RPGDemoSimple"
+.PHONY : CMakeFiles/RPGDemoSimple.dir/codegen
+
+# clean rule for target.
+CMakeFiles/RPGDemoSimple.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoSimple.dir/build.make CMakeFiles/RPGDemoSimple.dir/clean
+.PHONY : CMakeFiles/RPGDemoSimple.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RPGDemoMinimal.dir
+
+# All Build rule for target.
+CMakeFiles/RPGDemoMinimal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=30,31,32,33,34,35,36 "Built target RPGDemoMinimal"
+.PHONY : CMakeFiles/RPGDemoMinimal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RPGDemoMinimal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RPGDemoMinimal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darkstar/Dark/build/macos/CMakeFiles 0
+.PHONY : CMakeFiles/RPGDemoMinimal.dir/rule
+
+# Convenience name for target.
+RPGDemoMinimal: CMakeFiles/RPGDemoMinimal.dir/rule
+.PHONY : RPGDemoMinimal
+
+# codegen rule for target.
+CMakeFiles/RPGDemoMinimal.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=30,31,32,33,34,35,36 "Finished codegen for target RPGDemoMinimal"
+.PHONY : CMakeFiles/RPGDemoMinimal.dir/codegen
+
+# clean rule for target.
+CMakeFiles/RPGDemoMinimal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RPGDemoMinimal.dir/build.make CMakeFiles/RPGDemoMinimal.dir/clean
+.PHONY : CMakeFiles/RPGDemoMinimal.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build-demo
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build-demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PerformanceOptimizationSimpleTest.dir/depend.make
@@ -73,88 +73,88 @@ CMakeFiles/PerformanceOptimizationSimpleTest.dir/codegen:
 .PHONY : CMakeFiles/PerformanceOptimizationSimpleTest.dir/codegen
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o: /Users/darkstar/darkengine/examples/performance_optimization_simple_test.cpp
+CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o: /Users/darkstar/Dark/examples/performance_optimization_simple_test.cpp
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/performance_optimization_simple_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.o -c /Users/darkstar/Dark/examples/performance_optimization_simple_test.cpp
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/performance_optimization_simple_test.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/performance_optimization_simple_test.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.i
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/performance_optimization_simple_test.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/performance_optimization_simple_test.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/examples/performance_optimization_simple_test.cpp.s
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o: /Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp
+CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o: /Users/darkstar/Dark/src/graphics/FrustumCuller.cpp
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o -c /Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.o -c /Users/darkstar/Dark/src/graphics/FrustumCuller.cpp
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/FrustumCuller.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.i
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/FrustumCuller.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/FrustumCuller.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/FrustumCuller.cpp.s
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o: /Users/darkstar/darkengine/src/graphics/Camera.cpp
+CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o: /Users/darkstar/Dark/src/graphics/Camera.cpp
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/Dark/src/graphics/Camera.cpp
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Camera.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Camera.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.i
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Camera.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Camera.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Camera.cpp.s
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o: /Users/darkstar/darkengine/src/graphics/Sprite.cpp
+CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o: /Users/darkstar/Dark/src/graphics/Sprite.cpp
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/darkengine/src/graphics/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/Dark/src/graphics/Sprite.cpp
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Sprite.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Sprite.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.i
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Sprite.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Sprite.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/graphics/Sprite.cpp.s
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o: /Users/darkstar/darkengine/src/core/ThreadPool.cpp
+CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o: /Users/darkstar/Dark/src/core/ThreadPool.cpp
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o -c /Users/darkstar/darkengine/src/core/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.o -c /Users/darkstar/Dark/src/core/ThreadPool.cpp
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/ThreadPool.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/ThreadPool.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.i
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/ThreadPool.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/ThreadPool.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/ThreadPool.cpp.s
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/flags.make
-CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o: /Users/darkstar/darkengine/src/core/MemoryPool.cpp
+CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o: /Users/darkstar/Dark/src/core/MemoryPool.cpp
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o: CMakeFiles/PerformanceOptimizationSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o -c /Users/darkstar/darkengine/src/core/MemoryPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o -MF CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o.d -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o -c /Users/darkstar/Dark/src/core/MemoryPool.cpp
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/MemoryPool.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/MemoryPool.cpp > CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.i
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/MemoryPool.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/MemoryPool.cpp -o CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.s
 
 # Object files for target PerformanceOptimizationSimpleTest
 PerformanceOptimizationSimpleTest_OBJECTS = \
@@ -176,7 +176,7 @@ PerformanceOptimizationSimpleTest: CMakeFiles/PerformanceOptimizationSimpleTest.
 PerformanceOptimizationSimpleTest: CMakeFiles/PerformanceOptimizationSimpleTest.dir/src/core/MemoryPool.cpp.o
 PerformanceOptimizationSimpleTest: CMakeFiles/PerformanceOptimizationSimpleTest.dir/build.make
 PerformanceOptimizationSimpleTest: CMakeFiles/PerformanceOptimizationSimpleTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable PerformanceOptimizationSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable PerformanceOptimizationSimpleTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PerformanceOptimizationSimpleTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/PerformanceOptimizationSimpleTest.dir/clean:
 .PHONY : CMakeFiles/PerformanceOptimizationSimpleTest.dir/clean
 
 CMakeFiles/PerformanceOptimizationSimpleTest.dir/depend:
-	cd /Users/darkstar/darkengine/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo/CMakeFiles/PerformanceOptimizationSimpleTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo/CMakeFiles/PerformanceOptimizationSimpleTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/PerformanceOptimizationSimpleTest.dir/depend
 

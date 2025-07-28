@@ -1,8 +1,8 @@
 CMakeFiles/RPGEngineMinimal.dir/src/graphics/Sprite.cpp.o: \
-  /Users/darkstar/darkengine/src/graphics/Sprite.cpp \
-  /Users/darkstar/darkengine/src/graphics/Sprite.h \
-  /Users/darkstar/darkengine/src/graphics/Texture.h \
-  /Users/darkstar/darkengine/src/graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/graphics/Sprite.cpp \
+  /Users/darkstar/Dark/src/graphics/Sprite.h \
+  /Users/darkstar/Dark/src/graphics/Texture.h \
+  /Users/darkstar/Dark/src/graphics/IGraphicsAPI.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

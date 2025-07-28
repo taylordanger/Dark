@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/ui_game_specific_test.cpp" "CMakeFiles/UIGameSpecificTest.dir/examples/ui_game_specific_test.cpp.o" "gcc" "CMakeFiles/UIGameSpecificTest.dir/examples/ui_game_specific_test.cpp.o.d"
+  "/Users/darkstar/Dark/examples/ui_game_specific_test.cpp" "CMakeFiles/UIGameSpecificTest.dir/examples/ui_game_specific_test.cpp.o" "gcc" "CMakeFiles/UIGameSpecificTest.dir/examples/ui_game_specific_test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

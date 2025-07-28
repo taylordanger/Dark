@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build/macos
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build/macos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ConfigSimpleTest.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/ConfigSimpleTest.dir/codegen:
 .PHONY : CMakeFiles/ConfigSimpleTest.dir/codegen
 
 CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o: CMakeFiles/ConfigSimpleTest.dir/flags.make
-CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o: /Users/darkstar/darkengine/examples/config_simple_test.cpp
+CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o: /Users/darkstar/Dark/examples/config_simple_test.cpp
 CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o: CMakeFiles/ConfigSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o -MF CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o.d -o CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o -c /Users/darkstar/darkengine/examples/config_simple_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o -MF CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o.d -o CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o -c /Users/darkstar/Dark/examples/config_simple_test.cpp
 
 CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/config_simple_test.cpp > CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/config_simple_test.cpp > CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.i
 
 CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/config_simple_test.cpp -o CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/config_simple_test.cpp -o CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.s
 
 CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o: CMakeFiles/ConfigSimpleTest.dir/flags.make
-CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o: /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp
+CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o: /Users/darkstar/Dark/src/core/ConfigurationManager.cpp
 CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o: CMakeFiles/ConfigSimpleTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o -MF CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o.d -o CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o -MF CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o.d -o CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o -c /Users/darkstar/Dark/src/core/ConfigurationManager.cpp
 
 CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp > CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/core/ConfigurationManager.cpp > CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.i
 
 CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp -o CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/core/ConfigurationManager.cpp -o CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.s
 
 # Object files for target ConfigSimpleTest
 ConfigSimpleTest_OBJECTS = \
@@ -112,7 +112,7 @@ ConfigSimpleTest: CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cp
 ConfigSimpleTest: CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o
 ConfigSimpleTest: CMakeFiles/ConfigSimpleTest.dir/build.make
 ConfigSimpleTest: CMakeFiles/ConfigSimpleTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ConfigSimpleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build/macos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ConfigSimpleTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConfigSimpleTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/ConfigSimpleTest.dir/clean:
 .PHONY : CMakeFiles/ConfigSimpleTest.dir/clean
 
 CMakeFiles/ConfigSimpleTest.dir/depend:
-	cd /Users/darkstar/darkengine/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos /Users/darkstar/darkengine/build/macos/CMakeFiles/ConfigSimpleTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build/macos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos /Users/darkstar/Dark/build/macos/CMakeFiles/ConfigSimpleTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ConfigSimpleTest.dir/depend
 

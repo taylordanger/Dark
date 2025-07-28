@@ -25,5 +25,9 @@ namespace RPGEngine {
         m_eventQueue.clear();
         m_nextHandlerId = 1;
     }
+
+
+
+    
     
 } // namespace RPGEngine

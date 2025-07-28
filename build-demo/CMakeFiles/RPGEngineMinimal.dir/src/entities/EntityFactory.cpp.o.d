@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityFactory.cpp.o: \
-  /Users/darkstar/darkengine/src/entities/EntityFactory.cpp \
-  /Users/darkstar/darkengine/src/entities/EntityFactory.h \
-  /Users/darkstar/darkengine/src/entities/Entity.h \
+  /Users/darkstar/Dark/src/entities/EntityFactory.cpp \
+  /Users/darkstar/Dark/src/entities/EntityFactory.h \
+  /Users/darkstar/Dark/src/entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -663,8 +663,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityFactory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/entities/../core/Types.h \
-  /Users/darkstar/darkengine/src/entities/EntityManager.h \
+  /Users/darkstar/Dark/src/entities/../core/Types.h \
+  /Users/darkstar/Dark/src/entities/EntityManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
@@ -783,8 +783,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityFactory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Users/darkstar/darkengine/src/entities/../core/ConfigurationManager.h \
-  /Users/darkstar/darkengine/external/include/nlohmann/json.hpp \
+  /Users/darkstar/Dark/src/entities/../core/ConfigurationManager.h \
+  /Users/darkstar/Dark/external/include/nlohmann/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
@@ -839,12 +839,12 @@ CMakeFiles/RPGEngineMinimal.dir/src/entities/EntityFactory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Users/darkstar/darkengine/src/entities/../components/Component.h \
+  /Users/darkstar/Dark/src/entities/../components/Component.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
-  /Users/darkstar/darkengine/src/entities/../components/ScriptComponent.h \
-  /Users/darkstar/darkengine/src/entities/../components/../scripting/IScriptEngine.h \
-  /Users/darkstar/darkengine/src/entities/../components/StatsComponent.h \
-  /Users/darkstar/darkengine/src/entities/../components/InventoryComponent.h \
+  /Users/darkstar/Dark/src/entities/../components/ScriptComponent.h \
+  /Users/darkstar/Dark/src/entities/../components/../scripting/IScriptEngine.h \
+  /Users/darkstar/Dark/src/entities/../components/StatsComponent.h \
+  /Users/darkstar/Dark/src/entities/../components/InventoryComponent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stat.h \

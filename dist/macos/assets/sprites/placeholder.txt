@@ -1,0 +1,12 @@
+# Sprite Assets Placeholder
+
+This directory should contain:
+- player.png - Player character sprite
+- player_idle_1.png, player_idle_2.png - Player idle animation frames
+- player_walk_1.png, player_walk_2.png, player_walk_3.png - Player walk animation frames
+- npc.png - NPC character sprite
+- enemy.png - Enemy character sprite
+- item.png - Item sprite
+- default.png - Default fallback sprite
+
+For the demo, these files are optional and the game will use placeholder rendering.

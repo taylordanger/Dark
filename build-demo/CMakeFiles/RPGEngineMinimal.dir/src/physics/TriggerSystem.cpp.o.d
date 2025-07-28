@@ -1,8 +1,8 @@
 CMakeFiles/RPGEngineMinimal.dir/src/physics/TriggerSystem.cpp.o: \
-  /Users/darkstar/darkengine/src/physics/TriggerSystem.cpp \
-  /Users/darkstar/darkengine/src/physics/TriggerSystem.h \
-  /Users/darkstar/darkengine/src/physics/../systems/System.h \
-  /Users/darkstar/darkengine/src/physics/../systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/physics/TriggerSystem.cpp \
+  /Users/darkstar/Dark/src/physics/TriggerSystem.h \
+  /Users/darkstar/Dark/src/physics/../systems/System.h \
+  /Users/darkstar/Dark/src/physics/../systems/../core/ISystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -664,8 +664,8 @@ CMakeFiles/RPGEngineMinimal.dir/src/physics/TriggerSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/physics/../systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/physics/../systems/../core/Event.h \
+  /Users/darkstar/Dark/src/physics/../systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/physics/../systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -782,10 +782,10 @@ CMakeFiles/RPGEngineMinimal.dir/src/physics/TriggerSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/physics/../components/ComponentManager.h \
-  /Users/darkstar/darkengine/src/physics/../components/Component.h \
-  /Users/darkstar/darkengine/src/physics/../components/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/physics/../components/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/physics/../components/ComponentManager.h \
+  /Users/darkstar/Dark/src/physics/../components/Component.h \
+  /Users/darkstar/Dark/src/physics/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/physics/../components/../entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -802,11 +802,11 @@ CMakeFiles/RPGEngineMinimal.dir/src/physics/TriggerSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/darkstar/darkengine/src/physics/CollisionSystem.h \
-  /Users/darkstar/darkengine/src/physics/CollisionShape.h \
-  /Users/darkstar/darkengine/src/physics/CollisionDetection.h \
-  /Users/darkstar/darkengine/src/physics/SpatialPartitioning.h \
-  /Users/darkstar/darkengine/src/physics/../core/Event.h \
-  /Users/darkstar/darkengine/src/physics/TriggerComponent.h \
-  /Users/darkstar/darkengine/src/physics/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/physics/PhysicsComponent.h
+  /Users/darkstar/Dark/src/physics/CollisionSystem.h \
+  /Users/darkstar/Dark/src/physics/CollisionShape.h \
+  /Users/darkstar/Dark/src/physics/CollisionDetection.h \
+  /Users/darkstar/Dark/src/physics/SpatialPartitioning.h \
+  /Users/darkstar/Dark/src/physics/../core/Event.h \
+  /Users/darkstar/Dark/src/physics/TriggerComponent.h \
+  /Users/darkstar/Dark/src/physics/../entities/Entity.h \
+  /Users/darkstar/Dark/src/physics/PhysicsComponent.h

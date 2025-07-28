@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/config_simple_test.cpp" "CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o" "gcc" "CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o.d"
-  "/Users/darkstar/darkengine/src/core/ConfigurationManager.cpp" "CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o" "gcc" "CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o.d"
+  "/Users/darkstar/Dark/examples/config_simple_test.cpp" "CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o" "gcc" "CMakeFiles/ConfigSimpleTest.dir/examples/config_simple_test.cpp.o.d"
+  "/Users/darkstar/Dark/src/core/ConfigurationManager.cpp" "CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o" "gcc" "CMakeFiles/ConfigSimpleTest.dir/src/core/ConfigurationManager.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

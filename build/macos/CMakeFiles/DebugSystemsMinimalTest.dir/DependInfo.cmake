@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/debug_systems_minimal_test.cpp" "CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o" "gcc" "CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o.d"
-  "/Users/darkstar/darkengine/src/debug/PerformanceProfiler.cpp" "CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o" "gcc" "CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o.d"
+  "/Users/darkstar/Dark/examples/debug_systems_minimal_test.cpp" "CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o" "gcc" "CMakeFiles/DebugSystemsMinimalTest.dir/examples/debug_systems_minimal_test.cpp.o.d"
+  "/Users/darkstar/Dark/src/debug/PerformanceProfiler.cpp" "CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o" "gcc" "CMakeFiles/DebugSystemsMinimalTest.dir/src/debug/PerformanceProfiler.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

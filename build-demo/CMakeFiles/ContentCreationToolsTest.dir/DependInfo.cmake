@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/content_creation_tools_test.cpp" "CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o.d"
-  "/Users/darkstar/darkengine/src/tools/AnimationEditor.cpp" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o.d"
-  "/Users/darkstar/darkengine/src/tools/DialogueEditor.cpp" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o.d"
-  "/Users/darkstar/darkengine/src/tools/MapEditor.cpp" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o.d"
+  "/Users/darkstar/Dark/examples/content_creation_tools_test.cpp" "CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/examples/content_creation_tools_test.cpp.o.d"
+  "/Users/darkstar/Dark/src/tools/AnimationEditor.cpp" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/AnimationEditor.cpp.o.d"
+  "/Users/darkstar/Dark/src/tools/DialogueEditor.cpp" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/DialogueEditor.cpp.o.d"
+  "/Users/darkstar/Dark/src/tools/MapEditor.cpp" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o" "gcc" "CMakeFiles/ContentCreationToolsTest.dir/src/tools/MapEditor.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

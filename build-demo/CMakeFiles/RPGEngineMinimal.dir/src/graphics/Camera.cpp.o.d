@@ -1,9 +1,9 @@
 CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.o: \
-  /Users/darkstar/darkengine/src/graphics/Camera.cpp \
-  /Users/darkstar/darkengine/src/graphics/Camera.h \
-  /Users/darkstar/darkengine/src/graphics/Sprite.h \
-  /Users/darkstar/darkengine/src/graphics/Texture.h \
-  /Users/darkstar/darkengine/src/graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/graphics/Camera.cpp \
+  /Users/darkstar/Dark/src/graphics/Camera.h \
+  /Users/darkstar/Dark/src/graphics/Sprite.h \
+  /Users/darkstar/Dark/src/graphics/Texture.h \
+  /Users/darkstar/Dark/src/graphics/IGraphicsAPI.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -755,5 +755,5 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/Camera.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/darkstar/darkengine/src/graphics/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/graphics/../entities/../core/Types.h
+  /Users/darkstar/Dark/src/graphics/../entities/Entity.h \
+  /Users/darkstar/Dark/src/graphics/../entities/../core/Types.h

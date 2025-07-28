@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/darkstar/darkengine/examples/ui_framework_simple_test.cpp" "CMakeFiles/UIFrameworkSimpleTest.dir/examples/ui_framework_simple_test.cpp.o" "gcc" "CMakeFiles/UIFrameworkSimpleTest.dir/examples/ui_framework_simple_test.cpp.o.d"
+  "/Users/darkstar/Dark/examples/ui_framework_simple_test.cpp" "CMakeFiles/UIFrameworkSimpleTest.dir/examples/ui_framework_simple_test.cpp.o" "gcc" "CMakeFiles/UIFrameworkSimpleTest.dir/examples/ui_framework_simple_test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

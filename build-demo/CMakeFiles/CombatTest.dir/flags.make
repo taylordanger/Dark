@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DPLATFORM_MACOS=1
 
-CXX_INCLUDES = -I/Users/darkstar/darkengine/src -I/Users/darkstar/darkengine/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/darkstar/Dark/src -I/Users/darkstar/Dark/external/include -I/opt/homebrew/include/lua -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 =  -stdlib=libc++ -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic
 

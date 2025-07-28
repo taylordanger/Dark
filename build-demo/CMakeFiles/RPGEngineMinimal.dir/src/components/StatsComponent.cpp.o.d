@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/components/StatsComponent.cpp.o: \
-  /Users/darkstar/darkengine/src/components/StatsComponent.cpp \
-  /Users/darkstar/darkengine/src/components/StatsComponent.h \
-  /Users/darkstar/darkengine/src/components/Component.h \
+  /Users/darkstar/Dark/src/components/StatsComponent.cpp \
+  /Users/darkstar/Dark/src/components/StatsComponent.h \
+  /Users/darkstar/Dark/src/components/Component.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

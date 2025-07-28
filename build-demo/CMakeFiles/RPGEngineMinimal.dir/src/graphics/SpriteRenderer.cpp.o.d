@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/graphics/SpriteRenderer.cpp.o: \
-  /Users/darkstar/darkengine/src/graphics/SpriteRenderer.cpp \
-  /Users/darkstar/darkengine/src/graphics/SpriteRenderer.h \
-  /Users/darkstar/darkengine/src/graphics/IGraphicsAPI.h \
+  /Users/darkstar/Dark/src/graphics/SpriteRenderer.cpp \
+  /Users/darkstar/Dark/src/graphics/SpriteRenderer.h \
+  /Users/darkstar/Dark/src/graphics/IGraphicsAPI.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -753,7 +753,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/SpriteRenderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/darkstar/darkengine/src/graphics/ShaderManager.h \
+  /Users/darkstar/Dark/src/graphics/ShaderManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
@@ -762,16 +762,16 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/SpriteRenderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
-  /Users/darkstar/darkengine/src/graphics/Sprite.h \
-  /Users/darkstar/darkengine/src/graphics/Texture.h \
-  /Users/darkstar/darkengine/src/graphics/FrustumCuller.h \
-  /Users/darkstar/darkengine/src/graphics/Camera.h \
-  /Users/darkstar/darkengine/src/graphics/../entities/Entity.h \
-  /Users/darkstar/darkengine/src/graphics/../entities/../core/Types.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/System.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/../core/ISystem.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/../core/IEngine.h \
-  /Users/darkstar/darkengine/src/graphics/../systems/../core/Event.h \
+  /Users/darkstar/Dark/src/graphics/Sprite.h \
+  /Users/darkstar/Dark/src/graphics/Texture.h \
+  /Users/darkstar/Dark/src/graphics/FrustumCuller.h \
+  /Users/darkstar/Dark/src/graphics/Camera.h \
+  /Users/darkstar/Dark/src/graphics/../entities/Entity.h \
+  /Users/darkstar/Dark/src/graphics/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/graphics/../systems/System.h \
+  /Users/darkstar/Dark/src/graphics/../systems/../core/ISystem.h \
+  /Users/darkstar/Dark/src/graphics/../systems/../core/IEngine.h \
+  /Users/darkstar/Dark/src/graphics/../systems/../core/Event.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -790,7 +790,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/graphics/SpriteRenderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/darkstar/darkengine/src/graphics/../core/MemoryPool.h \
+  /Users/darkstar/Dark/src/graphics/../core/MemoryPool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \

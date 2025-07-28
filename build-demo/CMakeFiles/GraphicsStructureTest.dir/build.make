@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darkstar/darkengine
+CMAKE_SOURCE_DIR = /Users/darkstar/Dark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darkstar/darkengine/build-demo
+CMAKE_BINARY_DIR = /Users/darkstar/Dark/build-demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GraphicsStructureTest.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/GraphicsStructureTest.dir/codegen:
 .PHONY : CMakeFiles/GraphicsStructureTest.dir/codegen
 
 CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o: CMakeFiles/GraphicsStructureTest.dir/flags.make
-CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o: /Users/darkstar/darkengine/examples/graphics_structure_test.cpp
+CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o: /Users/darkstar/Dark/examples/graphics_structure_test.cpp
 CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o: CMakeFiles/GraphicsStructureTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o -MF CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o.d -o CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o -c /Users/darkstar/darkengine/examples/graphics_structure_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o -MF CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o.d -o CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.o -c /Users/darkstar/Dark/examples/graphics_structure_test.cpp
 
 CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/examples/graphics_structure_test.cpp > CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/examples/graphics_structure_test.cpp > CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.i
 
 CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/examples/graphics_structure_test.cpp -o CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/examples/graphics_structure_test.cpp -o CMakeFiles/GraphicsStructureTest.dir/examples/graphics_structure_test.cpp.s
 
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o: CMakeFiles/GraphicsStructureTest.dir/flags.make
-CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o: /Users/darkstar/darkengine/src/graphics/Camera.cpp
+CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o: /Users/darkstar/Dark/src/graphics/Camera.cpp
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o: CMakeFiles/GraphicsStructureTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/darkengine/src/graphics/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o -MF CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o.d -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.o -c /Users/darkstar/Dark/src/graphics/Camera.cpp
 
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Camera.cpp > CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Camera.cpp > CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.i
 
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Camera.cpp -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Camera.cpp -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.cpp.s
 
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o: CMakeFiles/GraphicsStructureTest.dir/flags.make
-CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o: /Users/darkstar/darkengine/src/graphics/Sprite.cpp
+CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o: /Users/darkstar/Dark/src/graphics/Sprite.cpp
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o: CMakeFiles/GraphicsStructureTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o -MF CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o.d -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/darkengine/src/graphics/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o -MF CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o.d -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o -c /Users/darkstar/Dark/src/graphics/Sprite.cpp
 
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/darkengine/src/graphics/Sprite.cpp > CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/darkstar/Dark/src/graphics/Sprite.cpp > CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.i
 
 CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/darkengine/src/graphics/Sprite.cpp -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/darkstar/Dark/src/graphics/Sprite.cpp -o CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.s
 
 # Object files for target GraphicsStructureTest
 GraphicsStructureTest_OBJECTS = \
@@ -128,7 +128,7 @@ GraphicsStructureTest: CMakeFiles/GraphicsStructureTest.dir/src/graphics/Camera.
 GraphicsStructureTest: CMakeFiles/GraphicsStructureTest.dir/src/graphics/Sprite.cpp.o
 GraphicsStructureTest: CMakeFiles/GraphicsStructureTest.dir/build.make
 GraphicsStructureTest: CMakeFiles/GraphicsStructureTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/darkengine/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GraphicsStructureTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/darkstar/Dark/build-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GraphicsStructureTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GraphicsStructureTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +140,6 @@ CMakeFiles/GraphicsStructureTest.dir/clean:
 .PHONY : CMakeFiles/GraphicsStructureTest.dir/clean
 
 CMakeFiles/GraphicsStructureTest.dir/depend:
-	cd /Users/darkstar/darkengine/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/darkengine /Users/darkstar/darkengine /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo /Users/darkstar/darkengine/build-demo/CMakeFiles/GraphicsStructureTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/darkstar/Dark/build-demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/darkstar/Dark /Users/darkstar/Dark /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo /Users/darkstar/Dark/build-demo/CMakeFiles/GraphicsStructureTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/GraphicsStructureTest.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/RPGEngineMinimal.dir/src/components/DialogueComponent.cpp.o: \
-  /Users/darkstar/darkengine/src/components/DialogueComponent.cpp \
-  /Users/darkstar/darkengine/src/components/DialogueComponent.h \
-  /Users/darkstar/darkengine/src/components/Component.h \
+  /Users/darkstar/Dark/src/components/DialogueComponent.cpp \
+  /Users/darkstar/Dark/src/components/DialogueComponent.h \
+  /Users/darkstar/Dark/src/components/Component.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

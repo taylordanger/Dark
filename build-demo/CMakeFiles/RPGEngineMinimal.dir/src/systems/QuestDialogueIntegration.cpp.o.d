@@ -1,8 +1,8 @@
 CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestDialogueIntegration.cpp.o: \
-  /Users/darkstar/darkengine/src/systems/QuestDialogueIntegration.cpp \
-  /Users/darkstar/darkengine/src/systems/QuestDialogueIntegration.h \
-  /Users/darkstar/darkengine/src/systems/../components/QuestComponent.h \
-  /Users/darkstar/darkengine/src/systems/../components/Component.h \
+  /Users/darkstar/Dark/src/systems/QuestDialogueIntegration.cpp \
+  /Users/darkstar/Dark/src/systems/QuestDialogueIntegration.h \
+  /Users/darkstar/Dark/src/systems/../components/QuestComponent.h \
+  /Users/darkstar/Dark/src/systems/../components/Component.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -293,7 +293,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestDialogueIntegration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_element.h \
-  /Users/darkstar/darkengine/src/systems/../components/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../components/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -666,7 +666,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestDialogueIntegration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/darkstar/darkengine/src/systems/../components/../entities/../core/Types.h \
+  /Users/darkstar/Dark/src/systems/../components/../entities/../core/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
@@ -781,9 +781,9 @@ CMakeFiles/RPGEngineMinimal.dir/src/systems/QuestDialogueIntegration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /Users/darkstar/darkengine/src/systems/../components/DialogueComponent.h \
-  /Users/darkstar/darkengine/src/systems/../entities/EntityManager.h \
-  /Users/darkstar/darkengine/src/systems/../entities/Entity.h \
+  /Users/darkstar/Dark/src/systems/../components/DialogueComponent.h \
+  /Users/darkstar/Dark/src/systems/../entities/EntityManager.h \
+  /Users/darkstar/Dark/src/systems/../entities/Entity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \

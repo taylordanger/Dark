@@ -1,6 +1,6 @@
 CMakeFiles/RPGEngineMinimal.dir/src/components/AnimationComponent.cpp.o: \
-  /Users/darkstar/darkengine/src/components/AnimationComponent.cpp \
-  /Users/darkstar/darkengine/src/components/AnimationComponent.h \
+  /Users/darkstar/Dark/src/components/AnimationComponent.cpp \
+  /Users/darkstar/Dark/src/components/AnimationComponent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

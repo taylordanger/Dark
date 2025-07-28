@@ -1,6 +1,6 @@
 CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.o: \
-  /Users/darkstar/darkengine/src/core/ConfigurationManager.cpp \
-  /Users/darkstar/darkengine/src/core/ConfigurationManager.h \
+  /Users/darkstar/Dark/src/core/ConfigurationManager.cpp \
+  /Users/darkstar/Dark/src/core/ConfigurationManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -776,7 +776,7 @@ CMakeFiles/RPGEngineMinimal.dir/src/core/ConfigurationManager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/darkstar/darkengine/external/include/nlohmann/json.hpp \
+  /Users/darkstar/Dark/external/include/nlohmann/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
